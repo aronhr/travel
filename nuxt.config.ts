@@ -28,6 +28,9 @@ export default defineNuxtConfig({
   },
   image: {
     format: ['jpeg']
-  }
+  },
+  routeRules: {
+    '/': { prerender: true },
+  },
 
 })
