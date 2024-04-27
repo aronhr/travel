@@ -12,9 +12,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  plugins: [
+    { src: '~/plugins/primevue.js', mode: 'client' }
+  ],
   primevue: {
     options: {
-      unstyled: true
+      unstyled: false
     }
   }
 })
