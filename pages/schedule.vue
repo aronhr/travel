@@ -1,12 +1,21 @@
-<script setup>
-
-</script>
 
 <template>
-    <div class="flex flex-col justify-between h-screen bg-gray">
-        <Card />
+    <div v-for="card in cards" :key="card.id">
+        <Card :imageUrl="card.imageUrl" :title="card.title" :content="card.content" />
     </div>
 </template>
+
+<script>
+import data from "../store/data.json";
+
+export default {
+    data() {
+        return {
+            cards: data.cards
+        }
+    }
+}</script>
+
 
 <style scoped>
 
