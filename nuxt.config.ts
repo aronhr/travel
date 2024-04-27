@@ -31,7 +31,6 @@ export default defineNuxtConfig({
   mapbox: {
     accessToken: process.env.MB_KEY
   },
-  // @ts-ignore
   pwa: {
     manifest: {
       name: 'Squaretable',
@@ -39,7 +38,9 @@ export default defineNuxtConfig({
       lang: 'is',
       display: 'standalone',
       background_color: '#f0f0f0',
-      theme_color: '#333333'
+      theme_color: '#333333',
+      fileName: 'manifest.json',  // Explicitly define the manifest file name
+      publicPath: '/'  // Ensure this is the correct public path
     }
   }
 })
