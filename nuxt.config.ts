@@ -11,10 +11,11 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   modules: [
-      'nuxt-primevue',
-      "@nuxt/image",
-      'nuxt-mapbox',
-      '@vite-pwa/nuxt'
+    'nuxt-primevue',
+    "@nuxt/image",
+    'nuxt-mapbox',
+    '@vite-pwa/nuxt',
+    "@nuxt/content"
   ],
   postcss: {
     plugins: {
@@ -91,6 +92,8 @@ export default defineNuxtConfig({
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
     }
+  },
+  content: {
+    // ... options
   }
 })
-
