@@ -35,5 +35,5 @@ export default defineNuxtConfig({
   pwa: {
     /* PWA options */
   }
-
 })
+
