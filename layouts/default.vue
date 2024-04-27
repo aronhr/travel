@@ -6,6 +6,6 @@ import navigationBar from '~/components/navigationBar.vue';
 <template>
     <div class="flex flex-col justify-between h-screen">
         <slot />
-        <navigationBar/>
+        <navigationBar />
     </div>
 </template>
