@@ -1,0 +1,18 @@
+
+{
+    "cards": [
+      {
+        "id": 1,
+        "imageUrl": "static/logo.png",
+        "title": "Borða",
+        "content": "Card content 1"
+      },
+      {
+        "id": 2,
+        "imageUrl": "../static/logo.png",
+        "title": "Ghost tour",
+        "content": "Card content 2"
+      }
+    ]
+  }
+  
