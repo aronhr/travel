@@ -7,6 +7,7 @@ import AppHeader from '/components/AppHeader';
 <template>
     <div class="flex flex-col justify-between h-screen">
         <AppHeader/>
+        <CheckIfOffileWorks />
         <slot />
         <navigationBar />
     </div>

@@ -8,7 +8,12 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['nuxt-primevue', "@nuxt/image", 'nuxt-mapbox'],
+  modules: [
+      'nuxt-primevue',
+      "@nuxt/image",
+      'nuxt-mapbox',
+      '@vite-pwa/nuxt'
+  ],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -25,6 +30,10 @@ export default defineNuxtConfig({
   },
   mapbox: {
     accessToken: process.env.MB_KEY
+  },
+  // @ts-ignore
+  pwa: {
+    /* PWA options */
   }
 
 })
