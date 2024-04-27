@@ -43,8 +43,8 @@ export default defineNuxtConfig({
       short_name: 'Squaretable',
       lang: 'is',
       display: 'standalone',
-      background_color: '#f0f0f0',
-      theme_color: '#333333',
+      background_color: '#161D2C',
+      theme_color: '#161D2C',
       icons: [
         {
           "src": "icons/manifest-icon-144.maskable.png",
