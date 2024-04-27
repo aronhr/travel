@@ -8,8 +8,8 @@ const name = names[Math.floor(Math.random() * names.length)];
 </script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline">Hello {{ name }}</h1>
+  <div class="h-full flex flex-col p-8">
+    <h1 class="text-4xl font-bold w-32">Velkomnir til Edinborgar</h1>
   </div>
 </template>
 

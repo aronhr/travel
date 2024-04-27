@@ -8,6 +8,6 @@ import AppHeader from '/components/AppHeader';
     <div class="flex flex-col justify-between h-screen">
         <AppHeader/>
         <slot />
-        <navigationBar/>
+        <navigationBar />
     </div>
 </template>
