@@ -10,7 +10,7 @@ function computeLinkClass(targetRoute) {
 
 </script>
 <template>
-    <div class="w-screen bg-slate-300 text-black">
+    <div class="w-screen bg-slate-300 text-black h-14">
         <ul class="w-full flex flex-row justify-around text-center py-4">
             <NuxtLink to="/" class="w-1/3" :class="computeLinkClass('index')">
                 <i class="pi pi-home" style="font-size: 1.5rem" />
