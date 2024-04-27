@@ -7,6 +7,12 @@ export default defineNuxtConfig({
       mb_key: process.env.MB_KEY
     }
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
+    }
+  },
   ssr: false,
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
