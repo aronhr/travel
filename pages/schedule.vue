@@ -3,7 +3,9 @@
 </script>
 
 <template>
-    <div>Schedule page</div>
+    <div class="flex flex-col justify-between h-screen bg-gray">
+        <Card />
+    </div>
 </template>
 
 <style scoped>
