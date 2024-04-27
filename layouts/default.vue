@@ -5,7 +5,7 @@ import AppHeader from '/components/AppHeader';
 </script>
 
 <template>
-    <div class="flex flex-col justify-between h-screen">
+    <div class="flex flex-col justify-start h-screen">
         <AppHeader/>
         <slot />
         <navigationBar />
