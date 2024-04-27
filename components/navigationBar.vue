@@ -10,7 +10,7 @@ function computeLinkClass(targetRoute) {
 
 </script>
 <template>
-    <div class="w-full bg-slate-300 text-black h-14 py-4">
+    <div class="fixed bottom-0 w-full bg-slate-300 text-black h-14 py-4 z-10">
         <ul class="w-full flex flex-row justify-around text-center">
             <NuxtLink to="/" class="w-1/3" :class="computeLinkClass('index')">
                 <i class="pi pi-home" style="font-size: 1.5rem" />
@@ -20,7 +20,7 @@ function computeLinkClass(targetRoute) {
                 <i class="pi pi-list" style="font-size: 1.5rem" />
             </NuxtLink>
             <Divider layout="vertical" class="bg-black w-[2px]" />
-            <NuxtLink to="/place" class="w-1/3" :class="computeLinkClass('/')">
+            <NuxtLink to="/place" class="w-1/3" :class="computeLinkClass('place')">
                 <i class="pi pi-compass" style="font-size: 1.5rem" />
             </NuxtLink>
         </ul>
