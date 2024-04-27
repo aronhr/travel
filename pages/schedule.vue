@@ -1,12 +1,14 @@
-<script setup>
-
-</script>
 
 <template>
-    <div class="flex flex-col justify-between h-screen bg-gray">
-        <Card />
+    <div class="flex flex-col h-screen bg-gray">
+        <Card
+        imageUrl="../static/logo.png"
+        ></Card>
+        <Card
+        ></Card>
     </div>
 </template>
+
 
 <style scoped>
 
