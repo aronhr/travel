@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "static/logo.png",
+    "title": "Borða",
+    "description": "Card content 1"
+  },
+  {
+    "id": 2,
+    "imageUrl": "../static/logo.png",
+    "title": "Ghost tour",
+    "description": "Card content 2"
+  }
+]
