@@ -47,8 +47,8 @@ export default defineNuxtConfig({
       theme_color: '#333333',
       icons: [
         {
-          "src": "public/icons/manifest-icon-192.maskable.png",
-          "sizes": "192x192",
+          "src": "public/icons/manifest-icon-144.maskable.png",
+          "sizes": "144x144",
           "type": "image/png",
           "purpose": "any"
         },
