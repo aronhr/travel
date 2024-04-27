@@ -38,9 +38,7 @@ export default defineNuxtConfig({
       lang: 'is',
       display: 'standalone',
       background_color: '#f0f0f0',
-      theme_color: '#333333',
-      fileName: 'manifest.json',  // Explicitly define the manifest file name
-      publicPath: '/'  // Ensure this is the correct public path
+      theme_color: '#333333'
     }
   }
 })
