@@ -5,8 +5,7 @@ import AppHeader from '/components/AppHeader';
 </script>
 
 <template>
-    <NuxtPwaManifest />
-    <div class="flex flex-col justify-between h-screen">
+    <div class="flex flex-col justify-start h-screen">
         <AppHeader/>
         <slot />
         <navigationBar />
