@@ -26,11 +26,4 @@ export default defineNuxtConfig({
   mapbox: {
     accessToken: process.env.MB_KEY
   },
-  image: {
-    format: ['jpeg']
-  },
-  routeRules: {
-    '/': { prerender: true },
-  },
-
 })
