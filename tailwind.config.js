@@ -31,7 +31,11 @@ export default {
         'surface-700': 'rgb(var(--surface-700))',
         'surface-800': 'rgb(var(--surface-800))',
         'surface-900': 'rgb(var(--surface-900))',
-        'surface-950': 'rgb(var(--surface-950))'
+        'surface-950': 'rgb(var(--surface-950))',
+        'dark': 'rgb(22,29,44)',
+        'gold': 'rgb(195,174,141)',
+        'green': 'rgb(116,124,124)',
+        'gray': 'rgb(116,116,124)'
       }
     },
   },
