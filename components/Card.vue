@@ -1,18 +1,12 @@
-<script setup>
-
-
-</script>
-
 <template>
-    {{ console.log(imageUrl) }}
     <div class="flex flex-col p-2">
       <div class="bg-dark rounded shadow-md p-2">
         <!-- Card Image -->
         <div v-if="imageUrl" class="p-3">
-            <img :src="imageUrl" alt="Card Image" class="rounded-t w-13 h-12">
+            <img :src="imageUrl" class="rounded-t w-13 h-12">
         </div>
         <!-- Card Header -->
-        <div class="border-b border-gray p-3 rounded-t">
+        <div class="border-b border-gray rounded-t">
           <h2 class="text-lg font-semibold">{{ title }}</h2>
         </div>
   
