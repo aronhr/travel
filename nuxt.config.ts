@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     }
   },
   ssr: false,
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   modules: [
       'nuxt-primevue',
@@ -33,7 +33,14 @@ export default defineNuxtConfig({
   },
   // @ts-ignore
   pwa: {
-    /* PWA options */
+    manifest: {
+      name: 'Squaretable',
+      short_name: 'Squaretable',
+      lang: 'is',
+      display: 'standalone',
+      background_color: '#f0f0f0',
+      theme_color: '#333333'
+    }
   }
 })
 
