@@ -19,13 +19,27 @@ useHead({
   ]
 })
 
+const getTime = (timestamp) => {
+  return timestamp.slice(0,5);
+}
+
 </script>
 
 <template>
-  <div>
-    <h1>{{ place.title }}</h1>
-    <p>{{ place.description }}</p>
-    <img :src="place?.imageUrl">
+  <div class="flex flex-col items-center py-10 px-4 h-full bg-dark text-white">
+    <div class="flex flex-row gap-4">
+      <img src="../../public/landing-image.jpeg" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
+      <div class="flex flex-col justify-start">
+        <h1 class="text-2xl font-bold">{{ place.title }}</h1>
+        <h2 class="text-lg font-semibold " v-if="place.time">{{ getTime(place.time) }}</h2>
+        <h2 class="text-lg" v-else>No schedule</h2>
+      </div>
+    </div>
+    <div class="flex flex-col justify-start items-start w-full">
+      <p>{{ place.description }}</p>
+      <NuxtLink to="" class="bg-gold w-full">Staðsetning</NuxtLink>
+    </div>
+    
   </div>
 </template>
 
