@@ -2,6 +2,11 @@
 import 'primeicons/primeicons.css';
 import navigationBar from '~/components/navigationBar.vue';
 import AppHeader from '/components/AppHeader';
+
+import useNavbarVisibility from '~/composables/useNavbarVisibility.js';
+const {isNavbarHidden} = useNavbarVisibility();
+
+
 </script>
 
 <template>
@@ -9,6 +14,6 @@ import AppHeader from '/components/AppHeader';
     <div class="flex flex-col justify-start h-screen">
         <AppHeader/>
         <slot />
-        <navigationBar />
+        <navigationBar v-if="!isNavbarHidden" />
     </div>
 </template>
