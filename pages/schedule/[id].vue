@@ -25,6 +25,10 @@ const getTime = (timestamp) => {
   return new Date(timestamp).toLocaleString('is-IS', { hour: 'numeric', minute: 'numeric', hour12: false });
 }
 
+const getDate = (timestamp) => {
+  return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+}
+
 const link = ref('');
 
 onMounted(() => {
@@ -76,7 +80,12 @@ onMounted(() => {
       <p>{{ place.description }}</p>
       <nuxt-link :to="link" class="bg-gold w-full text-center">{{ place?.location }}</nuxt-link>
     </div>
+    <div class="absolute h-80 w-80 bottom-24">
+      <LocationOfEvent :place="place" />
+    </div>
+    
   </div>
+
 </template>
 
 <style scoped>
