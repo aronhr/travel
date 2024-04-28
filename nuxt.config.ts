@@ -23,7 +23,8 @@ export default defineNuxtConfig({
     "@nuxt/image",
     'nuxt-mapbox',
     '@vite-pwa/nuxt',
-    "@nuxt/content"
+    "@nuxt/content",
+    '@nuxtjs/device'
   ],
   postcss: {
     plugins: {
