@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://www.whatsonnetwork.co.uk/uploads/800x600/2eeaa7ac753abc973bd1a1391cc955f0.jpg",
     "title": "The Jazz Bar",
     "description": "Lifandi tónlistarstaður þekktur fyrir jazz, funk og soul tónlist. Staðurinn býður upp á frábæra stemningu og úrval af drykkjum.",
     "time": "2024-05-06T14:00:00",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://images.trvl-media.com/lodging/73000000/72950000/72942300/72942233/9fd1cf5a.jpg?impolicy=resizecrop&rw=500&ra=fit",
     "title": "BrewDog Edinburgh",
     "description": "Frumlegur og nútímalegur bar sem býður upp á fjölbreytt úrval af handverksbjór, bæði frá BrewDog og öðrum brugghúsum.",
     "time": "2024-05-06T14:00:00",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "imageUrl": "icon.png",
+    "imageUrl": "ihttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_Meb9yQ71KyWWn_mWYUNeMmgScFy4XkR5sHGNL62LA&s",
     "title": "The Scotch Whisky Experience",
     "description": "Fræðandi upplifun þar sem gestir geta lært allt um skoska viskíið og bragðað það. Fullkomin staður fyrir viskíáhugamenn.",
     "time": "2024-05-06T14:00:00",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "imageUrl": "icon.png",
+    "imageUrl": "https://ewh.org.uk/wp-content/uploads/2023/11/Royal-Mile.png",
     "title": "The Royal Mile",
     "description": "Þessi fræga göngugata er full af sögu og menningu, með verslanir sem selja allt frá handverki til viskís.",
     "time": "2024-05-06T14:00:00",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "imageUrl": "icon.png",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeeC6Wh8gwaWr88PGHkUjmo6ZInY8B6g1c8GxmFXdvDQ&s",
     "title": "Cadenhead's Whisky Shop",
     "description": "Eldsta óháða viskíbrugghúsið í Skotlandi. Frábær staður til að kaupa einstakt viskí, hvort sem er fyrir sjálfan þig eða sem gjöf.",
     "time": "2024-05-06T14:00:00",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qldXmqTxkmbkzDeKP8UNkYarPfzDFXQXoSBFwFhuRg&s",
     "title": "Panda & Sons",
     "description": "Einrækt speakeasy bar sem lítur út fyrir að vera bókabúð. Frábær staður fyrir handgerða kokteila.",
     "time": "2024-05-06T14:00:00",
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://www.euansguide.com/remote.axd/nucleusimagery.blob.core.windows.net%2Flive%2F9d9450ee-3cd1-4ef5-98b0-744b6461fdc5?width=768&height=345&mode=crop",
     "title": "Holyrood 9A",
     "description": "Gestgjafi yfir 20 tegundir af bjór á krana og býður upp á stórt úrval af borgurum.",
     "time": "2024-05-06T14:00:00",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbd7WgcnahtES12Kn5disJiLGW2b60aRzzbAMJrt-2eg&s",
     "title": "The Hanging Bat",
     "description": "Þetta brugghús býður upp á sérstakt úrval af handverksbjór og lifandi stemningu.",
     "time": "2024-05-06T14:00:00",
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://media.timeout.com/images/101721665/image.jpg",
     "title": "The Devil's Advocate",
     "description": "Staðsett í gamalli bókabúð, þessi bar býður upp á yfir 300 tegundir af viskí og frábæra matseðla.",
     "time": "2024-05-06T14:00:00",
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://www.foodjunkieuk.co.uk/wp-content/uploads/2018/12/10746829328_IMG_0417-1024x776.jpg",
     "title": "Oink",
     "description": "Sérhæfir sig í svínakjötsmorgunverði sem er útseldur snemma, staðurinn er frábær fyrir snögga og góða máltíð.",
     "time": "2024-05-06T14:00:00",
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Summerhall_arts_hub.JPG",
     "title": "Summerhall",
     "description": "Listamiðstöð sem hýsir reglulega tónlistarviðburði, leikhús og listasýningar.",
     "time": "2024-05-06T14:00:00",
@@ -155,7 +155,7 @@
   },
   {
     "id": 12,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRdDeDJA1Hqqi9ee3SeGMx-trVNhNibF5w6q45qdHCg&s",
     "title": "The Bow Bar",
     "description": "Heimilislegur bar með yfir 200 tegundir af viskí og fjölbreytta bjóraúrval.",
     "time": "2024-05-06T14:00:00",
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/05/f2/09/1d/the-brass-monkey.jpg",
     "title": "Brass Monkey",
     "description": "Slakaður bar þar sem hægt er að horfa á bíómyndir á bakvið tjöldin eða njóta drykkjar við arineld.",
     "time": "2024-05-06T14:00:00",
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://media.timeout.com/images/101721637/image.jpg",
     "title": "Café Royal Circle Bar",
     "description": "Sögulegur staður með stórbrotnu innra byggingarlistinni og breitt úrval af bjórum og viskí.",
     "time": "2024-05-06T14:00:00",
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://static.toiimg.com/photo/msid-44861606,width-96,height-65.cms",
     "title": "Under the Stairs",
     "description": "Kósí bar undir stiga með einstakri stemningu, býður upp á handverkskokteila og matseðil með skapandi réttum.",
     "time": "2024-05-06T14:00:00",
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bb/84/70/striking-frontage-of.jpg?w=1200&h=1200&s=1",
     "title": "Sandy Bell's",
     "description": "Heimilislegur bar þekktur fyrir lifandi þjóðlagatónlist. Frábær staður fyrir þá sem njóta góðs tónlistar og samveru.",
     "time": "2024-05-06T14:00:00",
@@ -225,7 +225,7 @@
   },
   {
     "id": 17,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYZT7b4NMmVwe-Qz4DSSxsr5Wcu_hIMc12rRRa_CqgQ&s",
     "title": "Leith Depot",
     "description": "Hugljúfur staður með frábærri stemningu, býður upp á lifandi tónlist og er þekktur fyrir listasýningar og viðburði.",
     "time": "2024-05-06T14:00:00",
@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYWxtSWxuQFb1JSQHVvYsLdaXsL5N-wN7enSrqWVMRQ&s",
     "title": "The Last Drop",
     "description": "Sögulegur bar í hjarta Grassmarket, frábær fyrir áhugafólk um sögu og góðan bjór.",
     "time": "2024-05-06T14:00:00",
@@ -253,7 +253,7 @@
   },
   {
     "id": 19,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://lh4.googleusercontent.com/proxy/CQGBXRUt0ZUtHtBL0TpShj52UjctfSAAk-5rYwCqDXdLC46u_qpTnomXN01ZSoQChRWpw-RvkTkY-w",
     "title": "Lucky Liquor Co.",
     "description": "Nútímalegur bar sem býður upp á einstök kokteil í stílhreinu umhverfi.",
     "time": "2024-05-06T14:00:00",
@@ -267,7 +267,7 @@
   },
   {
     "id": 20,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJD3Bw5PVmtdtHtpT1mv0Z-km7Mnithz_5CTAlgpJ8KQ&s",
     "title": "Joseph Pearce's",
     "description": "Sænskur bar sem býður upp á sænska matargerð og frábæra bjóra. Frábær staður fyrir þá sem vilja upplifa eitthvað nýtt.",
     "time": "2024-05-06T14:00:00",
@@ -281,7 +281,7 @@
   },
   {
     "id": 21,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://hostmerestaurants.blob.core.windows.net/photos/original/the-mash-tun-edinburgh-b5a02a45b404d2d4b429c30ac2b1237b",
     "title": "The Mash Tun",
     "description": "Notalegur bar með fjölbreyttri matseðill og góðum bjór. Vinsælt meðal heimamanna.",
     "time": "2024-05-06T14:00:00",
@@ -295,7 +295,7 @@
   },
   {
     "id": 22,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://www.thebarfly.co.uk/wp-content/uploads/2014/09/Blue-Blazer-ext-0914-800.jpg",
     "title": "The Blue Blazer",
     "description": "Gamaldags bar með miklu úrvali af viskí og bjór. Þekktur fyrir sinn heimilislega anda.",
     "time": "2024-05-06T14:00:00",
@@ -309,7 +309,7 @@
   },
   {
     "id": 23,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/bc/46/1e/bannerman-s.jpg?w=1200&h=-1&s=1",
     "title": "Bannerman's Bar",
     "description": "Rock bar með góðri stemningu, tónleikum og breiðu úrvali af drykkjum. Fullkomið fyrir tónlistarunnendur.",
     "time": "2024-05-06T14:00:00",
@@ -323,7 +323,7 @@
   },
   {
     "id": 24,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/17/d4/24/c3/cosy-traditional-basement.jpg",
     "title": "The Antiquary",
     "description": "Kósí bar í neðanjarðar rými með stórt úrval af viskí og hlýja stemningu.",
     "time": "2024-05-06T14:00:00",
@@ -337,7 +337,7 @@
   },
   {
     "id": 25,
-    "imageUrl": "landing-image.jpeg",
+    "imageUrl": "https://images.otstatic.com/prod/23975018/1/huge.jpg",
     "title": "Paradise Palms",
     "description": "Líflegur og litríkur bar og veitingastaður, þekktur fyrir skemmtilega kokteila og veglegan mat.",
     "time": "2024-05-06T14:00:00",
