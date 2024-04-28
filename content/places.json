@@ -6,7 +6,11 @@
     "description": "Card content 1",
     "time": "2024-05-06T14:00:00",
     "address": "Street 1",
-    "location": "asd"
+    "location": "asd",
+    "coordinates": {
+      "lat": 64.146582,
+      "lng": -21.942635
+    }
   },
   {
     "id": 2,
@@ -15,7 +19,11 @@
     "description": "Card content 1",
     "time": "2024-05-06T14:00:00",
     "address": "Street 1",
-    "location": "asd"
+    "location": "asd",
+    "coordinates": {
+      "lat": 64.146582,
+      "lng": -21.942635
+    }
   },
   {
     "id": 3,
@@ -24,7 +32,11 @@
     "description": "Card content 1",
     "time": "2024-05-06T14:00:00",
     "address": "Street 1",
-    "location": "asd"
+    "location": "asd",
+    "coordinates": {
+      "lat": 64.146582,
+      "lng": -21.942635
+    }
   },
   {
     "id": 4,
@@ -32,6 +44,10 @@
     "title": "Borða",
     "description": "Card content 1",
     "time": "2024-05-06T14:00:00",
-    "address": "asd"
+    "address": "asd",
+    "coordinates": {
+      "lat": 64.146582,
+      "lng": -21.942635
+    }
   }
 ]
