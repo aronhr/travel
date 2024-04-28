@@ -30,7 +30,7 @@ const data = {
     <div class="flex flex-col justify-center items-center h-1/3 w-full">
         <MapboxMap
         trackUserLocation="true"
-          map-id="2"
+          map-id="9989999998989"
           class="h-full"
           :options="{
             style: 'mapbox://styles/mapbox/light-v11', // style URL
@@ -39,9 +39,9 @@ const data = {
             trackUserLocation: true
           }"
         >
-        <MapboxDefaultMarker markerId="2" :lnglat="[100, -10]">
+        <MapboxDefaultMarker markerId="9989999998989" :lnglat="[100, -10]">
             <MapboxDefaultPopup
-                    popup-id="2"
+                    popup-id="9989999998989"
                     :lnglat="[100, 0]"
                     :options="{
                     closeOnClick: false,
