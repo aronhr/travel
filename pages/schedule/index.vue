@@ -21,7 +21,7 @@ const computeButtonClass= (target) => {
 
 <template>
 
-    <div class="h-auto w-auto bg-dark text-white ">
+    <div class="h-screen w-auto bg-dark text-white ">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center">
             <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                 <Transition appear>
@@ -36,11 +36,12 @@ const computeButtonClass= (target) => {
                 </Transition>
             </div>
         </div>
-        <div class="flex flex-row gap-0  h-8 justify-cente text-center mx-auto ixed bottom-24 w-52 ">
-            <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
-            <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
+        <div class="fixed bottom-24 w-full mx-auto">
+            <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
+                <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
+                <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
+            </div>
         </div>
-        
     </div>
 
 </template>
