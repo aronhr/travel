@@ -4,7 +4,10 @@ import navigationBar from '~/components/navigationBar.vue';
 import AppHeader from '/components/AppHeader';
 
 import useNavbarVisibility from '~/composables/useNavbarVisibility.js';
+
 const {isNavbarHidden} = useNavbarVisibility();
+
+ isNavbarHidden.value = false;
 
 
 </script>
