@@ -18,7 +18,7 @@ const x = setInterval(() => {
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  timeToEvent.value = days + "dagar " + hours + "klst " + minutes + "mín " + seconds + "sek ";
+  timeToEvent.value = days + " dagar " + hours + " klst " + minutes + " mín " + seconds + " sek ";
   if (distance < 0) {
     clearInterval(x);
     timeToEvent.value = "EXPIRED";
@@ -37,10 +37,17 @@ const x = setInterval(() => {
         <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Edinborgar</span>
       </h1>
       <h1 v-if="timeToEvent !== 'EXPIRED'" class="text-6xl font-bold w-32 px-8 pb-8">
-        <p class="text-2xl text-nowrap"><span>{{ timeToEvent }}</span></p>
+        <p class="text-2xl text-nowrap text-center"><span>{{ timeToEvent }}</span></p>
       </h1>
       <div class="flex flex-col justify-center items-center h-2/3">
-        <h3 class="text-xl w-1/2 text-center">Einhver texti Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequuntur officia eveniet officiis dolorum sunt voluptatibus distinctio ut, a inventore repudiandae ratione eaque facere ex ea quia reiciendis voluptatum numquam!</h3>
+        <h3 class="text-xl w-1/2 text-center">
+          Stígum saman inn í ævintýrið sem bíður okkar í hjarta
+          Skotlands, þar sem sögur og saga lifna við í hinni göfugu
+          Edinborg. Í þessari helgarferð munum við kafa djúpt í
+          ríkulega menningu og dularfulla sögu þessarar fornu
+          borgar, og upplifa allt það besta sem hún hefur upp á að
+          bjóða
+        </h3>
       </div>
       <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105"/>
     </div>
