@@ -2,52 +2,351 @@
   {
     "id": 1,
     "imageUrl": "landing-image.jpeg",
-    "title": "Gordon Ramsay",
-    "description": "Card content 1",
+    "title": "The Jazz Bar",
+    "description": "Lifandi tónlistarstaður þekktur fyrir jazz, funk og soul tónlist. Staðurinn býður upp á frábæra stemningu og úrval af drykkjum.",
     "time": "2024-05-06T14:00:00",
-    "address": "Street 1",
-    "location": "asd",
+    "address": "1A Chambers Street, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "17:00 - 03:00",
     "coordinates": {
-      "lat": 55.953477579307254, 
-      "lng": -3.193055253250576
+      "lat": 55.9473,
+      "lng": -3.1909
     }
   },
   {
     "id": 2,
     "imageUrl": "landing-image.jpeg",
-    "title": "Borða",
-    "description": "Card content 1",
+    "title": "BrewDog Edinburgh",
+    "description": "Frumlegur og nútímalegur bar sem býður upp á fjölbreytt úrval af handverksbjór, bæði frá BrewDog og öðrum brugghúsum.",
     "time": "2024-05-06T14:00:00",
-    "address": "Street 1",
-    "location": "asd",
+    "address": "143 Cowgate, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
     "coordinates": {
-      "lat": 55.953477579307254, 
-      "lng": -3.193055253250576
+      "lat": 55.9485,
+      "lng": -3.1919
     }
   },
   {
     "id": 3,
     "imageUrl": "icon.png",
-    "title": "Borða",
-    "description": "Card content 1",
+    "title": "The Scotch Whisky Experience",
+    "description": "Fræðandi upplifun þar sem gestir geta lært allt um skoska viskíið og bragðað það. Fullkomin staður fyrir viskíáhugamenn.",
     "time": "2024-05-06T14:00:00",
-    "address": "Street 1",
-    "location": "asd",
+    "address": "354 Castlehill, The Royal Mile, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "10:00 - 17:00",
     "coordinates": {
-      "lat": 64.146582,
-      "lng": -21.942635
+      "lat": 55.9486,
+      "lng": -3.1958
     }
   },
   {
     "id": 4,
     "imageUrl": "icon.png",
-    "title": "Borða",
-    "description": "Card content 1",
+    "title": "The Royal Mile",
+    "description": "Þessi fræga göngugata er full af sögu og menningu, með verslanir sem selja allt frá handverki til viskís.",
     "time": "2024-05-06T14:00:00",
-    "address": "asd",
+    "address": "Royal Mile, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "Always Open",
     "coordinates": {
-      "lat": 64.146582,
-      "lng": -21.942635
+      "lat": 55.9501,
+      "lng": -3.1858
+    }
+  },
+  {
+    "id": 5,
+    "imageUrl": "icon.png",
+    "title": "Cadenhead's Whisky Shop",
+    "description": "Eldsta óháða viskíbrugghúsið í Skotlandi. Frábær staður til að kaupa einstakt viskí, hvort sem er fyrir sjálfan þig eða sem gjöf.",
+    "time": "2024-05-06T14:00:00",
+    "address": "172 Canongate, Royal Mile, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "10:30 - 17:30",
+    "coordinates": {
+      "lat": 55.9517,
+      "lng": -3.1802
+    }
+  },
+  {
+    "id": 6,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Panda & Sons",
+    "description": "Einrækt speakeasy bar sem lítur út fyrir að vera bókabúð. Frábær staður fyrir handgerða kokteila.",
+    "time": "2024-05-06T14:00:00",
+    "address": "79 Queen St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "16:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9555,
+      "lng": -3.1987
+    }
+  },
+  {
+    "id": 7,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Holyrood 9A",
+    "description": "Gestgjafi yfir 20 tegundir af bjór á krana og býður upp á stórt úrval af borgurum.",
+    "time": "2024-05-06T14:00:00",
+    "address": "9A Holyrood Rd, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "10:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9510,
+      "lng": -3.1817
+    }
+  },
+  {
+    "id": 8,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Hanging Bat",
+    "description": "Þetta brugghús býður upp á sérstakt úrval af handverksbjór og lifandi stemningu.",
+    "time": "2024-05-06T14:00:00",
+    "address": "133 Lothian Rd, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 00:00",
+    "coordinates": {
+      "lat": 55.9448,
+      "lng": -3.2064
+    }
+  },
+  {
+    "id": 9,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Devil's Advocate",
+    "description": "Staðsett í gamalli bókabúð, þessi bar býður upp á yfir 300 tegundir af viskí og frábæra matseðla.",
+    "time": "2024-05-06T14:00:00",
+    "address": "9 Advocates Close, High St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9502,
+      "lng": -3.1908
+    }
+  },
+  {
+    "id": 10,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Oink",
+    "description": "Sérhæfir sig í svínakjötsmorgunverði sem er útseldur snemma, staðurinn er frábær fyrir snögga og góða máltíð.",
+    "time": "2024-05-06T14:00:00",
+    "address": "34 Victoria St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 18:00",
+    "coordinates": {
+      "lat": 55.9487,
+      "lng": -3.1939
+    }
+  },
+  {
+    "id": 11,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Summerhall",
+    "description": "Listamiðstöð sem hýsir reglulega tónlistarviðburði, leikhús og listasýningar.",
+    "time": "2024-05-06T14:00:00",
+    "address": "1 Summerhall, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "10:00 - 23:00",
+    "coordinates": {
+      "lat": 55.9407,
+      "lng": -3.1824
+    }
+  },
+  {
+    "id": 12,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Bow Bar",
+    "description": "Heimilislegur bar með yfir 200 tegundir af viskí og fjölbreytta bjóraúrval.",
+    "time": "2024-05-06T14:00:00",
+    "address": "80 West Bow, Victoria St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9484,
+      "lng": -3.1942
+    }
+  },
+  {
+    "id": 13,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Brass Monkey",
+    "description": "Slakaður bar þar sem hægt er að horfa á bíómyndir á bakvið tjöldin eða njóta drykkjar við arineld.",
+    "time": "2024-05-06T14:00:00",
+    "address": "14 Drummond St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9473,
+      "lng": -3.1859
+    }
+  },
+  {
+    "id": 14,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Café Royal Circle Bar",
+    "description": "Sögulegur staður með stórbrotnu innra byggingarlistinni og breitt úrval af bjórum og viskí.",
+    "time": "2024-05-06T14:00:00",
+    "address": "19 West Register St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 23:00",
+    "coordinates": {
+      "lat": 55.9536,
+      "lng": -3.1899
+    }
+  },
+  {
+    "id": 15,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Under the Stairs",
+    "description": "Kósí bar undir stiga með einstakri stemningu, býður upp á handverkskokteila og matseðil með skapandi réttum.",
+    "time": "2024-05-06T14:00:00",
+    "address": "3A Merchant St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "17:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9483,
+      "lng": -3.1917
+    }
+  },
+  {
+    "id": 16,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Sandy Bell's",
+    "description": "Heimilislegur bar þekktur fyrir lifandi þjóðlagatónlist. Frábær staður fyrir þá sem njóta góðs tónlistar og samveru.",
+    "time": "2024-05-06T14:00:00",
+    "address": "25 Forrest Rd, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9466,
+      "lng": -3.1924
+    }
+  },
+  {
+    "id": 17,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Leith Depot",
+    "description": "Hugljúfur staður með frábærri stemningu, býður upp á lifandi tónlist og er þekktur fyrir listasýningar og viðburði.",
+    "time": "2024-05-06T14:00:00",
+    "address": "138-140 Leith Walk, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 00:00",
+    "coordinates": {
+      "lat": 55.9692,
+      "lng": -3.1725
+    }
+  },
+  {
+    "id": 18,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Last Drop",
+    "description": "Sögulegur bar í hjarta Grassmarket, frábær fyrir áhugafólk um sögu og góðan bjór.",
+    "time": "2024-05-06T14:00:00",
+    "address": "74-78 Grassmarket, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9471,
+      "lng": -3.1975
+    }
+  },
+  {
+    "id": 19,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Lucky Liquor Co.",
+    "description": "Nútímalegur bar sem býður upp á einstök kokteil í stílhreinu umhverfi.",
+    "time": "2024-05-06T14:00:00",
+    "address": "39A Queen St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "16:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9558,
+      "lng": -3.1978
+    }
+  },
+  {
+    "id": 20,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Joseph Pearce's",
+    "description": "Sænskur bar sem býður upp á sænska matargerð og frábæra bjóra. Frábær staður fyrir þá sem vilja upplifa eitthvað nýtt.",
+    "time": "2024-05-06T14:00:00",
+    "address": "23 Elm Row, Leith Walk, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9606,
+      "lng": -3.1841
+    }
+  },
+  {
+    "id": 21,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Mash Tun",
+    "description": "Notalegur bar með fjölbreyttri matseðill og góðum bjór. Vinsælt meðal heimamanna.",
+    "time": "2024-05-06T14:00:00",
+    "address": "154 Easter Rd, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 00:00",
+    "coordinates": {
+      "lat": 55.9618,
+      "lng": -3.1659
+    }
+  },
+  {
+    "id": 22,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Blue Blazer",
+    "description": "Gamaldags bar með miklu úrvali af viskí og bjór. Þekktur fyrir sinn heimilislega anda.",
+    "time": "2024-05-06T14:00:00",
+    "address": "2 Spittal St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "11:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9470,
+      "lng": -3.1997
+    }
+  },
+  {
+    "id": 23,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Bannerman's Bar",
+    "description": "Rock bar með góðri stemningu, tónleikum og breiðu úrvali af drykkjum. Fullkomið fyrir tónlistarunnendur.",
+    "time": "2024-05-06T14:00:00",
+    "address": "212 Cowgate, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9482,
+      "lng": -3.1915
+    }
+  },
+  {
+    "id": 24,
+    "imageUrl": "landing-image.jpeg",
+    "title": "The Antiquary",
+    "description": "Kósí bar í neðanjarðar rými með stórt úrval af viskí og hlýja stemningu.",
+    "time": "2024-05-06T14:00:00",
+    "address": "72-78 St Stephen St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9583,
+      "lng": -3.2083
+    }
+  },
+  {
+    "id": 25,
+    "imageUrl": "landing-image.jpeg",
+    "title": "Paradise Palms",
+    "description": "Líflegur og litríkur bar og veitingastaður, þekktur fyrir skemmtilega kokteila og veglegan mat.",
+    "time": "2024-05-06T14:00:00",
+    "address": "41 Lothian St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "12:00 - 01:00",
+    "coordinates": {
+      "lat": 55.9464,
+      "lng": -3.1890
     }
   }
 ]
