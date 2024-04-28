@@ -37,8 +37,8 @@ const computeButtonClass= (target) => {
         </div>
         <div class="fixed bottom-24 text-white w-full mx-auto">
             <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
-                <button class="w-full rounded-l-full transition hover:bg-green border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
-                <button class="w-full rounded-r-full transition hover:bg-green" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
+                <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
+                <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
             </div>
         </div>
     </div>
