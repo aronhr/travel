@@ -37,8 +37,8 @@ const x = setInterval(() => {
       <h1 v-if="timeToEvent !== 'EXPIRED'" class="text-6xl font-bold w-32 px-8 pb-8">
         <p class="text-2xl text-nowrap text-center"><span>{{ timeToEvent }}</span></p>
       </h1>
-      <div class="flex flex-col justify-center items-center h-2/3">
-        <h3 class="text-xl font-semibold w-2/3 text-center">
+      <div class="flex flex-col justify-center items-start p-8 h-2/3">
+        <h3 class="text-xl font-semibold w-6/7 text-start">
           Stígum saman inn í ævintýrið sem bíður okkar í hjarta
           Skotlands, þar sem sögur og saga lifna við í hinni göfugu
           Edinborg. Í þessari helgarferð munum við kafa djúpt í
