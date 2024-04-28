@@ -1,10 +1,11 @@
 <script setup>
 // get slug from url
 import usePlaces from "~/composables/usePlaces.js";
+import useDate from "~/composables/useDate.js";
 
 
 const { getPlaceById } = usePlaces()
-const { isApple } = useDevice();
+const { getTime, getDate } = useDate();
 const route = useRoute()
 
 const placeId = Number(route.params.id)
@@ -20,14 +21,6 @@ useHead({
     }
   ]
 })
-
-const getTime = (timestamp) => {
-  return new Date(timestamp).toLocaleString('is-IS', { hour: 'numeric', minute: 'numeric', hour12: false });
-}
-
-const getDate = (timestamp) => {
-  return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', month: 'long', day: 'numeric' });
-}
 
 const link = ref('');
 
@@ -68,7 +61,7 @@ onMounted(() => {
 <template>
   <div class="flex flex-col items-center py-10 px-4 h-full bg-dark text-white">
     <div class="flex flex-row gap-4">
-      <img src="../../public/landing-image.jpeg" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
+      <img :src="place.imageUrl" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
       <div class="flex flex-col justify-start">
         <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
         <h2 class="text-lg font-semibold " v-if="place?.time">{{ getTime(place?.time) }}</h2>
