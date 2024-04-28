@@ -39,7 +39,6 @@ const getTime = (timestamp) => {
       <p>{{ place.description }}</p>
       <NuxtLink to="" class="bg-gold w-full">Staðsetning</NuxtLink>
     </div>
-
   </div>
 </template>
 
