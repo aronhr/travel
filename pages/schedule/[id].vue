@@ -56,13 +56,12 @@ onMounted(() => {
         link.value = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${destinationLat},${destinationLng}&travelmode=walking`
       }
     }, () => {
-      console.error("Failed to retrieve your position.");
+      link.value = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
     });
   } else {
-    console.log("Geolocation is not supported by this browser.");
+    link.value = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
   }
 })
-
 
 </script>
 
@@ -83,7 +82,7 @@ onMounted(() => {
     <div class="absolute h-80 w-80 bottom-24">
       <LocationOfEvent :place="place" />
     </div>
-    
+
   </div>
 
 </template>
