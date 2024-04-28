@@ -1,4 +1,5 @@
 <template>
+
     <div class="p-2">
       <div class="  bg-dark justify-between min-h-96 rounded shadow-md flex flex-col bg-landing-pattern bg-cover bg-center p-2">
       	<div class="w-fit bg-dark p-3 border-b border-gray rounded-lg">
@@ -19,6 +20,7 @@
         </div>
       </div>
     </div>
+    
   </template>
   
   <script>
