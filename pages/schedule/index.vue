@@ -2,7 +2,7 @@
 // Get the data from the JSON file
 import usePlaces from "~/composables/usePlaces.js";
 
-const menuSelection = ref('places');
+const menuSelection = ref('schedule');
 
 const { getAllPlaces, getScheduledPlaces } = usePlaces()
 
@@ -14,34 +14,33 @@ const handleOnClick = (value) => {
 }
 
 const computeButtonClass= (target) => {
-    return target === menuSelection.value ? 'bg-gold font-bold' : 'bg-dark'
+    return target === menuSelection.value ? 'bg-gold font-bold' : 'bg-gray'
 }
 
 </script>
 
 <template>
 
-    <div>
-        <div v-if="menuSelection==='places'" class="text-white flex flex-row flex-wrap justify-center bg-gray">
-            <div  v-for="place in getAllPlaces()" :key="place.id" class="">
+    <div class="h-auto w-auto bg-dark text-white ">
+        <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center">
+            <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                 <Transition appear>
-                    <Card :place="place" class="w-96" />
+                    <Card :place="place"/>
                 </Transition>
             </div>
         </div>
-        <div v-else>
-            <div  v-for="place in getScheduledPlaces()" :key="place.id" class="text-white flex flex-row flex-wrap justify-center bg-gray" >
+        <div v-else class="flex flex-row flex-wrap justify-center">
+            <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
                 <Transition appear>
-                    <Card :place="place" class="w-96" />
+                    <Card :place="place"  />
                 </Transition>
             </div>
         </div>
-        <div class="fixed bottom-24 text-white w-full mx-auto">
-            <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
-                <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
-                <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
-            </div>
+        <div class="flex flex-row gap-0  h-8 justify-cente text-center mx-auto ixed bottom-24 w-52 ">
+            <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
+            <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
         </div>
+        
     </div>
     
 </template>

@@ -1,6 +1,7 @@
-<script setup lang="ts">
+<script setup>
 // get slug from url
 import usePlaces from "~/composables/usePlaces.js";
+
 
 const { getPlaceById } = usePlaces()
 const route = useRoute()
@@ -30,13 +31,13 @@ const getTime = (timestamp) => {
     <div class="flex flex-row gap-4">
       <img src="../../public/landing-image.jpeg" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
       <div class="flex flex-col justify-start">
-        <h1 class="text-2xl font-bold">{{ place.title }}</h1>
-        <h2 class="text-lg font-semibold " v-if="place.time">{{ getTime(place.time) }}</h2>
+        <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
+        <h2 class="text-lg font-semibold " v-if="place?.time">{{ getTime(place?.time) }}</h2>
         <h2 class="text-lg" v-else>No schedule</h2>
       </div>
     </div>
     <div class="flex flex-col justify-start items-start w-full">
-      <p>{{ place.description }}</p>
+      <p>{{ place?.description }}</p>
       <NuxtLink to="" class="bg-gold w-full">Staðsetning</NuxtLink>
     </div>
   </div>

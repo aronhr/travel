@@ -1,7 +1,7 @@
 <template>
-
+  <NuxtLink :to="`/schedule/${place.id}`">
     <div class="p-2">
-      <div class="  bg-dark justify-between min-h-96 rounded shadow-md flex flex-col bg-landing-pattern bg-cover bg-center p-2">
+      <div class="  bg-dark justify-between min-h-96 rounded shadow-md flex flex-col p-2 bg-cover bg-center" :style="{ 'background-image': 'url('+ place.imageUrl +')' }">
       	<div class="w-fit bg-dark p-3 border-b border-gray rounded-lg">
             <h2 class="text-lg font-semibold">{{ place.title }}</h2>
         </div>
@@ -12,19 +12,17 @@
             <p>{{ place.description }}</p>
           </div>
           <!-- Card Footer -->
-          <div class="border-t border-gray p-3 rounded-b">
-            <div class="flex justify-end">
-              <NuxtLink :to="`/schedule/${place.id}`"><button class="px-3 py-2 bg-dark text-white rounded-md"><i class='pi pi-map-marker'></i></button></NuxtLink>
-            </div>
+          <div class="border-t border-gray p-3 rounded-b flex flex-row justify-between">
+            <p class="px-3 py-2">{{ place.time }}</p>
+            <p class="px-3 py-2">{{ place.location }}</p> 
           </div>
         </div>
       </div>
     </div>
-    
-  </template>
+  </NuxtLink>   
+</template>
   
   <script>
-import Place from '~/pages/place.vue';
 
   export default {
     props: {
