@@ -24,10 +24,6 @@ const x = setInterval(() => {
     timeToEvent.value = "EXPIRED";
   }
 }, 1000);
-
-import useNavbarVisibility from "~/composables/useNavbarVisibility.js";
-const {isNavbarHidden} = useNavbarVisibility();
-isNavbarHidden.value = true;
 </script>
 
 <template>

@@ -7,9 +7,6 @@ import useNavbarVisibility from '~/composables/useNavbarVisibility.js';
 
 const {isNavbarHidden} = useNavbarVisibility();
 
- isNavbarHidden.value = false;
-
-
 </script>
 
 <template>

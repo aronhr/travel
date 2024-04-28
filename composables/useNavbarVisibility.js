@@ -13,6 +13,10 @@ export default function useNavbarVisibility() {
       isNavbarHidden.value = true;
     }
 
+    if (currentScrollPosition === 0) {
+      isNavbarHidden.value = false;
+    }
+
     lastScrollPosition = currentScrollPosition;
   };
 
