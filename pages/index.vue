@@ -27,21 +27,21 @@ const x = setInterval(() => {
 </script>
 
 <template>
-  <div>
+  <div class="">
     <div class="h-full flex flex-col justify-start text-white">
-    <img src="../public/landing-image.jpeg" class="-z-10 fixed w-screen h-screen blur-sm brightness-50 scale-110"/>
-    <h1 class="text-6xl font-bold w-32 p-8">
-      <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Edinborgar</span>
-      <span v-else-if="now > edinburghDeparture"><p class="text-2xl text-nowrap"><span>Ekkert spennandi á döfinni</span></p></span>
-      <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Edinborgar</span>
-    </h1>
+      <h1 class="text-6xl font-bold w-32 p-8">
+        <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Edinborgar</span>
+        <span v-else-if="now > edinburghDeparture"><p class="text-2xl text-nowrap"><span>Ekkert spennandi á döfinni</span></p></span>
+        <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Edinborgar</span>
+      </h1>
       <h1 v-if="timeToEvent !== 'EXPIRED'" class="text-6xl font-bold w-32 px-8 pb-8">
         <p class="text-2xl text-nowrap"><span>{{ timeToEvent }}</span></p>
       </h1>
-    <div class="flex flex-col justify-center items-center h-2/3">
-      <h3 class="text-xl w-1/2 text-center">Einhver texti Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequuntur officia eveniet officiis dolorum sunt voluptatibus distinctio ut, a inventore repudiandae ratione eaque facere ex ea quia reiciendis voluptatum numquam!</h3>
+      <div class="flex flex-col justify-center items-center h-2/3">
+        <h3 class="text-xl w-1/2 text-center">Einhver texti Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequuntur officia eveniet officiis dolorum sunt voluptatibus distinctio ut, a inventore repudiandae ratione eaque facere ex ea quia reiciendis voluptatum numquam!</h3>
+      </div>
+      <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105"/>
     </div>
-  </div>
   </div>
 
 

@@ -26,7 +26,6 @@ const data = {
 
 <template>
     <div class="flex flex-col justify-center items-center h-1/3 w-full">
-        <div class="h-1/3">data</div>
         <MapboxMap
         trackUserLocation="true"
           map-id="2"
