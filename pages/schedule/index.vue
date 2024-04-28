@@ -21,10 +21,10 @@ const computeButtonClass= (target) => {
 
 <template>
     <div>
-        <div v-if="menuSelection==='places'" class="text-white">
-            <div  v-for="place in getAllPlaces()" :key="place.id">
+        <div v-if="menuSelection==='places'" class="text-white flex flex-row flex-wrap justify-center">
+            <div  v-for="place in getAllPlaces()" :key="place.id" class="">
                 <Transition appear>
-                    <Card :imageUrl="place.imageUrl" :title="place.title" :content="place.description" />
+                    <Card :imageUrl="place.imageUrl" :title="place.title" :content="place.description" class="min-w-96" />
                 </Transition>
             </div>
         </div>
