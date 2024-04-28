@@ -4,7 +4,7 @@ export default function useDate() {
     }
 
     const getDate = (timestamp) => {
-        return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', month: 'long', day: 'numeric' });
+        return new Date(timestamp).toLocaleString('is-IS', { weekday: 'short', month: 'long', day: 'numeric' });
     }
 
     return { getTime, getDate };
