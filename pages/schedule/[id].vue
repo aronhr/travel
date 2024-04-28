@@ -20,7 +20,7 @@ useHead({
 })
 
 const getTime = (timestamp) => {
-  return timestamp.slice(0,5);
+  return new Date(timestamp).toLocaleString('is-IS', { hour: 'numeric', minute: 'numeric', hour12: false });
 }
 
 </script>
@@ -39,7 +39,7 @@ const getTime = (timestamp) => {
       <p>{{ place.description }}</p>
       <NuxtLink to="" class="bg-gold w-full">Staðsetning</NuxtLink>
     </div>
-    
+
   </div>
 </template>
 

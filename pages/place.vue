@@ -1,5 +1,7 @@
 <script setup>
-import { ref } from 'vue';
+useHead({
+  title: 'Kort'
+})
 
 const longitude = ref(1); // Default longitude
 const latitude = ref(1); // Default latitude
