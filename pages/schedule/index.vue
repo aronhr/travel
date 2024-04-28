@@ -7,8 +7,10 @@ const { getAllPlaces } = usePlaces()
 </script>
 
 <template>
-    <div v-for="place in getAllPlaces()" :key="place.title">
-        <Card :imageUrl="place.imageUrl" :title="place.title" :content="place.description" />
+    <div v-for="place in getAllPlaces()" :key="place.id" >
+        <Card 
+        :place="place"
+        />
     </div>
 </template>
 
