@@ -14,7 +14,7 @@ const handleOnClick = (value) => {
 }
 
 const computeButtonClass= (target) => {
-    return target === menuSelection.value ? 'bg-blue-500 font-bold' : 'bg-gold'
+    return target === menuSelection.value ? 'bg-gold font-bold' : 'bg-dark'
 }
 
 </script>
@@ -22,17 +22,17 @@ const computeButtonClass= (target) => {
 <template>
 
     <div>
-        <div v-if="menuSelection==='places'" class="text-white flex flex-row flex-wrap justify-center">
+        <div v-if="menuSelection==='places'" class="text-white flex flex-row flex-wrap justify-center bg-gray">
             <div  v-for="place in getAllPlaces()" :key="place.id" class="">
                 <Transition appear>
-                    <Card :place="place" class="min-w-96" />
+                    <Card :place="place" class="w-96" />
                 </Transition>
             </div>
         </div>
         <div v-else>
-            <div  v-for="place in getScheduledPlaces()" :key="place.id" class="text-white" >
+            <div  v-for="place in getScheduledPlaces()" :key="place.id" class="text-white flex flex-row flex-wrap justify-center bg-gray" >
                 <Transition appear>
-                    <Card :place="place" />
+                    <Card :place="place" class="w-96" />
                 </Transition>
             </div>
         </div>
