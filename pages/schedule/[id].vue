@@ -2,6 +2,7 @@
 // get slug from url
 import usePlaces from "~/composables/usePlaces.js";
 
+
 const { getPlaceById } = usePlaces()
 const { isApple } = useDevice();
 const route = useRoute()
@@ -66,8 +67,8 @@ onMounted(() => {
     <div class="flex flex-row gap-4">
       <img src="../../public/landing-image.jpeg" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
       <div class="flex flex-col justify-start">
-        <h1 class="text-2xl font-bold">{{ place.title }}</h1>
-        <h2 class="text-lg font-semibold " v-if="place.time">{{ getTime(place.time) }}</h2>
+        <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
+        <h2 class="text-lg font-semibold " v-if="place?.time">{{ getTime(place?.time) }}</h2>
         <h2 class="text-lg" v-else>No schedule</h2>
       </div>
     </div>
