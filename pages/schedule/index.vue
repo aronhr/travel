@@ -30,7 +30,7 @@ const computeButtonClass= (target) => {
                 </Transition>
             </div>
         </div>
-        <div v-else class="flex flex-row flex-wrap justify-center">
+        <div v-else class="flex flex-row flex-wrap justify-center gap-2">
             <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
                 <Transition appear>
                     <Card :place="place"  />
@@ -45,7 +45,7 @@ const computeButtonClass= (target) => {
             </div>
         </div>
         </Transition>
-        
+
     </div>
 
 </template>
