@@ -23,14 +23,14 @@ const computeButtonClass= (target) => {
 
 <template>
     <div class="md:h-screen w-auto bg-dark text-white" id="content">
-        <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">
+        <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center">
             <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                 <Transition appear>
                     <Card :place="place"/>
                 </Transition>
             </div>
         </div>
-        <div v-else class="flex flex-row flex-wrap justify-center gap-2">
+        <div v-else class="flex flex-row flex-wrap justify-center">
             <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
                 <Transition appear>
                     <Card :place="place"  />
@@ -45,7 +45,7 @@ const computeButtonClass= (target) => {
             </div>
         </div>
         </Transition>
-
+        
     </div>
 
 </template>
