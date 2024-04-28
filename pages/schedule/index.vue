@@ -19,7 +19,6 @@ const computeButtonClass= (target) => {
     return target === menuSelection.value ? 'bg-gold font-bold' : 'bg-gray'
 }
 
-isNavbarHidden.value = false;
 </script>
 
 <template>
