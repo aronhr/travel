@@ -1,10 +1,11 @@
 <script setup>
 // get slug from url
 import usePlaces from "~/composables/usePlaces.js";
+import useDate from "~/composables/useDate.js";
 
 
 const { getPlaceById } = usePlaces()
-const { isApple } = useDevice();
+const { getTime, getDate } = useDate();
 const route = useRoute()
 
 const placeId = Number(route.params.id)
@@ -20,14 +21,6 @@ useHead({
     }
   ]
 })
-
-const getTime = (timestamp) => {
-  return new Date(timestamp).toLocaleString('is-IS', { hour: 'numeric', minute: 'numeric', hour12: false });
-}
-
-const getDate = (timestamp) => {
-  return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', month: 'long', day: 'numeric' });
-}
 
 const link = ref('');
 
