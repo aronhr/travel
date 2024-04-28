@@ -4,8 +4,8 @@
     "imageUrl": "landing-image.jpeg",
     "title": "Gordon Ramsay",
     "description": "Card content 1",
-    "time": "14:00-06.05.24",
-    "adress": "Street 1",
+    "time": "2024-05-06T14:00:00",
+    "address": "Street 1",
     "location": "asd"
   },
   {
@@ -13,8 +13,8 @@
     "imageUrl": "icon.png",
     "title": "Borða",
     "description": "Card content 1",
-    "time": "14:00-06.05.24",
-    "adress": "Street 1",
+    "time": "2024-05-06T14:00:00",
+    "address": "Street 1",
     "location": "asd"
   },
   {
@@ -22,8 +22,8 @@
     "imageUrl": "icon.png",
     "title": "Borða",
     "description": "Card content 1",
-    "time": "14:00-06.05.24",
-    "adress": "Street 1",
+    "time": "2024-05-06T14:00:00",
+    "address": "Street 1",
     "location": "asd"
   },
   {
@@ -31,9 +31,7 @@
     "imageUrl": "icon.png",
     "title": "Borða",
     "description": "Card content 1",
-    "time": "14:00-06.05.24",
-    "adress": "Street 1",
-    "location": "asd"
+    "time": "2024-05-06T14:00:00",
+    "address": "asd"
   }
 ]
-  

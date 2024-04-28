@@ -20,7 +20,7 @@ useHead({
 })
 
 const getTime = (timestamp) => {
-  return timestamp.slice(0,5);
+  return new Date(timestamp).toLocaleString('is-IS', { hour: 'numeric', minute: 'numeric', hour12: false });
 }
 
 </script>

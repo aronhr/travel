@@ -1,5 +1,7 @@
 <script setup>
-
+useHead({
+  title: 'Squaretable'
+})
 // Create a countdown to the flight to edinburgh
 const countDownDate = new Date("May 4, 2024 08:35:00").getTime();
 const timeToEvent = ref("");

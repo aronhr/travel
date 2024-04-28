@@ -1,13 +1,13 @@
 <script setup>
+useHead({
+  title: 'Staðsetingar'
+})
 // Get the data from the JSON file
 import usePlaces from "~/composables/usePlaces.js";
 
 const menuSelection = ref('places');
 
 const { getAllPlaces, getScheduledPlaces } = usePlaces()
-
-
-const places = getAllPlaces();
 
 const handleOnClick = (value) => {
     menuSelection.value = value;
@@ -43,7 +43,7 @@ const computeButtonClass= (target) => {
             </div>
         </div>
     </div>
-    
+
 </template>
 
 <style scoped>
