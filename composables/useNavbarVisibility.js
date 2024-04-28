@@ -24,7 +24,7 @@ export default function useNavbarVisibility() {
     window.removeEventListener("scroll", handleScroll);
   });
 
-  let touchStartX = ref(0);
+  /*  let touchStartX = ref(0);
   let touchEndX = ref(0);
 
   const handleTouchStart = (e) => {
@@ -51,7 +51,7 @@ export default function useNavbarVisibility() {
     window.removeEventListener("touchstart", handleTouchStart);
     window.removeEventListener("touchmove", handleTouchMove);
     window.removeEventListener("touchend", handleTouchEnd);
-  });
+  }); */
 
   return { isNavbarHidden };
 }

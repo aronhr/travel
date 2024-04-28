@@ -25,7 +25,9 @@ const x = setInterval(() => {
   }
 }, 1000);
 
-
+import useNavbarVisibility from "~/composables/useNavbarVisibility.js";
+const {isNavbarHidden} = useNavbarVisibility();
+isNavbarHidden.value = true;
 </script>
 
 <template>
@@ -40,7 +42,7 @@ const x = setInterval(() => {
         <p class="text-2xl text-nowrap text-center"><span>{{ timeToEvent }}</span></p>
       </h1>
       <div class="flex flex-col justify-center items-center h-2/3">
-        <h3 class="text-xl w-1/2 text-center">
+        <h3 class="text-xl font-semibold w-2/3 text-center">
           Stígum saman inn í ævintýrið sem bíður okkar í hjarta
           Skotlands, þar sem sögur og saga lifna við í hinni göfugu
           Edinborg. Í þessari helgarferð munum við kafa djúpt í
