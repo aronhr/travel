@@ -5,7 +5,6 @@ export default function useNavbarVisibility() {
   const handleScroll = () => {
     const currentScrollPosition =
       window.scrollY || document.documentElement.scrollTop;
-    console.log(currentScrollPosition);
 
     if (currentScrollPosition < lastScrollPosition) {
       isNavbarHidden.value = false;
