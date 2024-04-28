@@ -20,8 +20,7 @@ const computeButtonClass= (target) => {
 </script>
 
 <template>
-
-    <div class="h-screen w-auto bg-dark text-white ">
+    <div class="md:h-screen w-auto bg-dark text-white ">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center">
             <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                 <Transition appear>
