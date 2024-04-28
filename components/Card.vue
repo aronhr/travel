@@ -1,4 +1,5 @@
 <template>
+  <NuxtLink :to="`/schedule/${place.id}`">
     <div class="flex flex-col p-2">
       <div class="bg-dark rounded shadow-md p-2">
         <!-- Card Image -->
@@ -24,6 +25,8 @@
         </div>
       </div>
     </div>
+  </NuxtLink>
+    
   </template>
   
   <script>
