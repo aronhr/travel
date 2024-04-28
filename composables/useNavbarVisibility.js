@@ -24,5 +24,34 @@ export default function useNavbarVisibility() {
     window.removeEventListener("scroll", handleScroll);
   });
 
+  let touchStartX = ref(0);
+  let touchEndX = ref(0);
+
+  const handleTouchStart = (e) => {
+    touchStartX.value = e.touches[0].clientX;
+  };
+
+  const handleTouchMove = (e) => {
+    touchEndX.value = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = () => {
+    if (touchEndX.value - touchStartX.value > 100) {
+      isNavbarHidden.value = false;
+    }
+  };
+
+  onMounted(() => {
+    window.addEventListener("touchstart", handleTouchStart);
+    window.addEventListener("touchmove", handleTouchMove);
+    window.addEventListener("touchend", handleTouchEnd);
+  });
+
+  onUnmounted(() => {
+    window.removeEventListener("touchstart", handleTouchStart);
+    window.removeEventListener("touchmove", handleTouchMove);
+    window.removeEventListener("touchend", handleTouchEnd);
+  });
+
   return { isNavbarHidden };
 }

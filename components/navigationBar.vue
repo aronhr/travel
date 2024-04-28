@@ -5,14 +5,10 @@ import useNavbarVisibility from '../composables/useNavbarVisibility.js';
 const {isNavbarHidden} = useNavbarVisibility();
 
 let route = useRoute().name;
-function computeLinkClass(targetRoute) {
+const computeLinkClass = (targetRoute) => {
     route = useRoute().name
     return route === targetRoute ? 'text-gold' : null
 };
-
-
-
-
 
 </script>
 <template>
