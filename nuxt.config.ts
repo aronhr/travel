@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import path from "path";
+
 const sw = process.env.SW === 'true'
 
 export default defineNuxtConfig({
@@ -35,7 +37,7 @@ export default defineNuxtConfig({
   primevue: {
     options: {
       unstyled: true
-    }
+    },
   },
   mapbox: {
     accessToken: process.env.MB_KEY
