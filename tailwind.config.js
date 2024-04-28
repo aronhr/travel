@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'logo-pattern': "url('/public/icon.png')",
+        'landing-pattern': "url('/public/landing-image.jpeg')"
+      },
       colors: {
         'primary-50': 'rgb(var(--primary-50))',
         'primary-100': 'rgb(var(--primary-100))',
