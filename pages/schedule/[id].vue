@@ -26,7 +26,7 @@ const getTime = (timestamp) => {
 }
 
 const getDate = (timestamp) => {
-  return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long', month: 'long', day: 'numeric' });
 }
 
 const link = ref('');
@@ -73,12 +73,10 @@ onMounted(() => {
       <div class="flex flex-col justify-start">
         <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
         <h2 class="text-lg font-semibold " v-if="place?.time">{{ getTime(place?.time) }}</h2>
+        <h2 class="text-lg font-semibold " v-if="place?.time">{{ getDate(place?.time) }}</h2>
         <h2 class="text-lg" v-else>No schedule</h2>
+        <NuxtLink :to="link" class="flex justify-center items-center bg-gold w-8 h-8 text-center rounded-lg"><i class="pi pi-directions text-2xl"></i></NuxtLink>
       </div>
-    </div>
-    <div class="flex flex-col justify-start items-start w-full">
-      <p>{{ place.description }}</p>
-      <nuxt-link :to="link" class="bg-gold w-full text-center">{{ place?.location }}</nuxt-link>
     </div>
     <div class="absolute h-80 w-80 bottom-24">
       <LocationOfEvent :place="place" />
