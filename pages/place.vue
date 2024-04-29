@@ -1,4 +1,9 @@
 <script setup>
+import useDate from "~/composables/useDate.js";
+import usePlaces from "~/composables/usePlaces.js";
+
+const { getAllPlaces } = usePlaces();
+const { getTime, getDate } = useDate();
 useHead({
   title: 'Kort'
 })
@@ -21,13 +26,11 @@ if ("geolocation" in navigator) {
     console.error("Geolocation is not supported by this browser.");
 }
 
-const data = {
 
-}
 </script>
 
 <template>
-    <div class="flex flex-col justify-center items-center h-1/3 w-full">
+    <div class="absolute bottom-20 h-[calc(100vh-10rem)] w-full">
         <MapboxMap
         trackUserLocation="true"
           map-id="9989999998989"
@@ -39,19 +42,25 @@ const data = {
             trackUserLocation: true
           }"
         >
-        <MapboxDefaultMarker markerId="9989999998989" :lnglat="[100, -10]">
-            <MapboxDefaultPopup
-                    popup-id="9989999998989"
-                    :lnglat="[100, 0]"
-                    :options="{
-                    closeOnClick: false,
-                    }"
-                >
-                <h1 class="test">
-                    Hello World!
-                </h1>
-            </MapboxDefaultPopup>
-        </MapboxDefaultMarker>
+        <div v-for="place in getAllPlaces()" :key="place.id.toString()+place">
+            <MapboxDefaultMarker :markerId="place.id.toString()+place" :lnglat="[place.coordinates.lng, place.coordinates.lat]">
+                <MapboxDefaultPopup
+                        :popup-id="place.id.toString()+place"
+                        :lnglat="[place.coordinates.lng, place.coordinates.lat]"
+                        :options="{
+                        closeOnClick: true,
+                        }"
+                    >
+                    <div class="flex flex-col w-full h-full">
+                        <h1 class="text-black text-lg font-bold">{{ place.title }}</h1>
+                        <h3 class="flex flex-row gap-1"><i class="pi pi-clock">  </i>{{ place.openingHours }}</h3>
+                        <p>{{ place.description }}</p>
+                        <NuxtLink :to="`/schedule/${place.id}`" class="flex justify-center items-center bg-gold w-full h-8 text-center rounded-lg"><i class="pi pi-info text-lg"></i></NuxtLink>
+                    </div>
+                </MapboxDefaultPopup>
+            </MapboxDefaultMarker>
+        </div>
+        
         <MapboxGeocoder />
         <MapboxNavigationControl />
         <MapboxGeolocateControl position="top-left" trackUserLocation="true"/>
