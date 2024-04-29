@@ -36,7 +36,7 @@ if ("geolocation" in navigator) {
           map-id="9989999998989"
           class="h-full"
           :options="{
-            style: 'mapbox://styles/mapbox/light-v11', // style URL
+            style: 'mapbox://styles/edvaldatli/clvk8iu2k01ed01qu0m2jgvgi', // style URL
             center: [ longitude, latitude], // starting position
             zoom: zoomLevel, // starting zoom
             trackUserLocation: true
