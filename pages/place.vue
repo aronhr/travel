@@ -61,7 +61,7 @@ if ("geolocation" in navigator) {
             </MapboxDefaultMarker>
         </div>
         
-        <MapboxGeocoder />
+        <MapboxGeocoder position="bottom-left" />
         <MapboxNavigationControl />
         <MapboxGeolocateControl position="top-left" trackUserLocation="true"/>
     </MapboxMap>
