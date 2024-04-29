@@ -60,30 +60,32 @@ onMounted(() => {
 
 <template>
   <div class="flex flex-col items-center py-1 px-4 h-full text-white gap-4">
-    <div v-if="place?.time" class="flex flex-row items-center bg-indigo-400 min-w-60 max-w-96 h-10 rounded-xl text-black px-6 py-10 gap-5">
-      <i class="pi pi-check-circle text-3xl"></i>
-      <div class="flex flex-col justify-start items-start">
-        <p class="font-bold text-2xl text-nowrap">Bókun afgreidd</p>
-        <div class="flex flex-row gap-2 items-center">
-          <p class="text-lg font-semibold ">{{ getDate(place?.time) }}</p>
-          <p class="text-lg font-semibold ">{{ getTime(place?.time) }}</p>
+    <div class="flex flex-row gap-4 h-52">
+      <img :src="place.imageUrl" alt="" class="object-cover w-1/3 rounded-lg bg-gold">
+      <div class="flex flex-col justify-start gap-2">
+        <h1 class="text-xl font-bold line-clamp-2">{{ place?.title }}</h1>
+        <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
+        <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
+        <div class="flex flex-row">
+          <NuxtLink :to="link" class="flex flex-col justify-center items-center bg-gold w-1/2 h-14 text-center rounded-l-lg text-black drop-shadow-md">
+            <p class="text-xs font-bold">Get directions</p>
+            <i class="pi pi-directions text-lg"></i>
+          </NuxtLink>
+          <div v-if="place?.time" class="flex flex-row justify-center items-center bg-indigo-400 w-1/2 rounded-r-xl text-black gap-2">
+            <i class="pi pi-check-circle text-sm"></i>
+              <div class="flex flex-col justify-start items-start">
+                <p class="text-xs font-bold text-nowrap leading-3">Bókað</p>
+                <div class="flex flex-row gap-1 items-center">
+                  <p class="text-xs font-semibold ">{{ getDate(place?.time) }}</p>
+                  <p class="text-xs font-semibold ">{{ getTime(place?.time) }}</p>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="flex flex-row gap-4 h-52">
-      <img :src="place.imageUrl" alt="" class="object-cover w-1/2 rounded-lg bg-gold">
-      <div class="flex flex-col justify-start gap-2">
-        <h1 class="text-2xl font-bold line-clamp-2">{{ place?.title }}</h1>
-        <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
-        <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
-        <NuxtLink :to="link" class="flex flex-col justify-center items-center bg-gold w-full h-14 text-center rounded-lg text-black">
-          <p class="text-xs font-bold">Get directions</p>
-          <i class="pi pi-directions text-3xl"></i>
-        </NuxtLink>
-      </div>
-    </div>
-    <p class="font-semibold text-lg line-clamp-3 text-center">{{ place.description }}</p>
-    <div class="absolute h-56 w-full bottom-20">
+    <p class="font-semibold text-lg line-clamp-3 text-center leading-5">{{ place.description }}</p>
+    <div class="absolute h-72 w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>
