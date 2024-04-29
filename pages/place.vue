@@ -47,7 +47,7 @@ if ("geolocation" in navigator) {
         <MapboxGeocoder />
         <MapboxGeolocateControl :showUserHeading="true" position="top-left"/>
         <div v-for="place in getAllPlaces()" :key="place.id.toString()">
-            <MapboxMarker :lng-lat="[place.coordinates.lng, place.coordinates.lat]" popup>
+            <MapboxMarker :lng-lat="[place.coordinates.lng, place.coordinates.lat]" :offset="[0, 25]" popup>
                 <template v-slot:popup>
                     <div class="flex flex-col w-full h-full">
                         <h1 class="text-black text-lg font-bold">{{ place.title }}</h1>
