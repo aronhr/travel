@@ -25,12 +25,11 @@ const computeButtonClass= (target) => {
     <div class="md:h-screen w-auto bg-dark text-white" id="content">
       <Transition name="card" mode="out-in">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">
-
             <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                   <Card :place="place"/>
             </div>
         </div>
-        <div v-else class="flex flex-row flex-wrap justify-center">
+        <div v-else class="flex flex-row flex-wrap justify-center gap-2">
             <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
                   <Card :place="place"  />
             </div>
