@@ -3,7 +3,7 @@ import { ref, defineProps } from 'vue';
 
 const longitude = ref(1); 
 const latitude = ref(1);
-const zoomLevel = ref(15);
+const zoomLevel = ref(16);
 
 const props = defineProps({
   place: Object // or whatever type you need
@@ -57,10 +57,11 @@ onMounted(() => {
     <MapboxMap 
         :map-id="place.id.toString()"
         :options="{
-            style: 'mapbox://styles/mapbox/dark-v11', // style URL
+            style: 'mapbox://styles/edvaldatli/clvk8iu2k01ed01qu0m2jgvgi', // style URL
             center: [ place.coordinates.lng, place.coordinates.lat], // starting position
             zoom: zoomLevel, // starting zoom
-            trackUserLocation: true
+            trackUserLocation: true,
+            pitch: 45
           }"
     >
     <MapboxDefaultMarker :markerId="place.id.toString()" :lnglat="[place.coordinates.lng, place.coordinates.lat]">

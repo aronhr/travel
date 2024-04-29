@@ -83,7 +83,7 @@ onMounted(() => {
       </div>
     </div>
     <p class="font-semibold text-lg line-clamp-3 text-center">{{ place.description }}</p>
-    <div class="absolute h-64 w-full bottom-20">
+    <div class="absolute h-56 w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>
