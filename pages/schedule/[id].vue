@@ -59,21 +59,34 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center py-10 px-4 h-full bg-dark text-white">
-    <div class="flex flex-row gap-4">
-      <img :src="place.imageUrl" alt="" class="object-fill w-1/3 rounded-lg bg-gold">
-      <div class="flex flex-col justify-start">
-        <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
-        <h2 class="text-lg font-semibold " v-if="place?.time">{{ getTime(place?.time) }}</h2>
-        <h2 class="text-lg font-semibold " v-if="place?.time">{{ getDate(place?.time) }}</h2>
-        <h2 class="text-lg" v-else>No schedule</h2>
-        <NuxtLink :to="link" class="flex justify-center items-center bg-gold w-8 h-8 text-center rounded-lg"><i class="pi pi-directions text-2xl"></i></NuxtLink>
+  <div class="flex flex-col items-center py-10 px-4 h-full text-white gap-4">
+    <div v-if="place?.time" class="flex flex-row items-center bg-indigo-400 min-w-60 max-w-96 h-10 rounded-xl text-black px-6 py-10 gap-5">
+      <i class="pi pi-info-circle text-3xl"></i>
+      <div class="flex flex-col justify-start items-start">
+        <p class="font-bold text-2xl">Bókun afgreidd</p>
+        <div class="flex flex-row gap-2 items-center">
+          <p class="text-lg font-semibold ">{{ getDate(place?.time) }}</p>
+          <p class="text-lg font-semibold ">{{ getTime(place?.time) }}</p>
+        </div>
+        
       </div>
     </div>
-    <div class="absolute h-80 w-80 bottom-24">
+    <div class="flex flex-row gap-4 h-52">
+      <img :src="place.imageUrl" alt="" class="object-cover w-1/2 rounded-lg bg-gold">
+      <div class="flex flex-col justify-start gap-2">
+        <h1 class="text-2xl font-bold">{{ place?.title }}</h1>
+        <p class="font-bold"><i class="pi pi-clock "></i> {{ place.openingHours }}</p>
+        <p class="font-bold"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
+        <NuxtLink :to="link" class="flex flex-col justify-center items-center bg-gold w-full h-14 text-center rounded-lg text-black">
+          <p class="text-xs font-bold">Get directions</p>
+          <i class="pi pi-directions text-3xl"></i>
+        </NuxtLink>
+      </div>
+    </div>
+    <p class="font-semibold text-lg line-clamp-3 text-center">{{ place.description }}</p>
+    <div class="absolute h-72 w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
-
   </div>
 
 </template>
