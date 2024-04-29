@@ -59,7 +59,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col items-center py-10 px-4 h-full text-white gap-4">
+  <div class="flex flex-col items-center py-1 px-4 h-full text-white gap-4">
     <div v-if="place?.time" class="flex flex-row items-center bg-indigo-400 min-w-60 max-w-96 h-10 rounded-xl text-black px-6 py-10 gap-5">
       <i class="pi pi-info-circle text-3xl"></i>
       <div class="flex flex-col justify-start items-start">
@@ -68,7 +68,6 @@ onMounted(() => {
           <p class="text-lg font-semibold ">{{ getDate(place?.time) }}</p>
           <p class="text-lg font-semibold ">{{ getTime(place?.time) }}</p>
         </div>
-        
       </div>
     </div>
     <div class="flex flex-row gap-4 h-52">
@@ -84,7 +83,7 @@ onMounted(() => {
       </div>
     </div>
     <p class="font-semibold text-lg line-clamp-3 text-center">{{ place.description }}</p>
-    <div class="absolute h-72 w-full bottom-20">
+    <div class="absolute h-64 w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>

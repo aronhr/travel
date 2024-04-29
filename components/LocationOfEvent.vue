@@ -82,6 +82,7 @@ onMounted(() => {
         </MapboxDefaultPopup>
       </MapboxDefaultMarker>
       <MapboxGeolocateControl position="top-left" trackUserLocation="true"/>
+      <MapboxFullscreenControl position="top-left"/>
     </MapboxMap>
   </div>
     
