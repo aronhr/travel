@@ -12,8 +12,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'
-    }
+      viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0',
+    },
+    pageTransition: { name: 'page', mode: 'out-in' }
   },
   ssr: false,
   devtools: { enabled: false },

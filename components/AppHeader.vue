@@ -1,7 +1,5 @@
 <script setup>
     const route = useRoute()
-
-    console.log(route.name)
 </script>
 
 <template>

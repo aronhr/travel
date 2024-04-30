@@ -6,7 +6,7 @@ const {isNavbarHidden} = useNavbarVisibility();
 
 let route = useRoute().name;
 const computeLinkClass = (targetRoute) => {
-    route = useRoute().name
+    route = useRoute().name // Assign a new route when nav loads again
     return route === targetRoute ? 'text-gold' : null
 };
 
@@ -16,15 +16,15 @@ const computeLinkClass = (targetRoute) => {
         <div class="fixed bottom-0 w-full z-10 " :v-if="!isNavbarHidden">
             <div class="flex flex-row justify-end w-full mt-auto bg-dark text-gray py-4 z-10 h-20 items-center overflow-hidden">
                 <div class="flex flex-row justify-between w-full text-center">
-                    <NuxtLink to="/" class="w-1/3 border-r-2 border-white" :class="computeLinkClass('index')">
+                    <router-link to="/" class="w-1/3 border-r-2 border-white" :class="computeLinkClass('index')">
                         <i class="pi pi-home" style="font-size: 1.5rem" />
-                    </NuxtLink>
-                    <NuxtLink to="/schedule" class="w-1/3" :class="computeLinkClass('schedule')">
+                    </router-link>
+                    <router-link to="/schedule" class="w-1/3" :class="computeLinkClass('schedule')">
                         <i class="pi pi-list" style="font-size: 1.5rem" />
-                    </NuxtLink>
-                    <NuxtLink to="/place" class="w-1/3 border-l-2 border-white" :class="computeLinkClass('place')">
+                    </router-link>
+                    <router-link to="/place" class="w-1/3 border-l-2 border-white" :class="computeLinkClass('place')">
                         <i class="pi pi-compass" style="font-size: 1.5rem" />
-                    </NuxtLink>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -63,4 +63,5 @@ const computeLinkClass = (targetRoute) => {
       scale: 0.9
     }
   }
+  
 </style>
