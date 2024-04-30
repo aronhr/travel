@@ -28,13 +28,17 @@
   </router-link>
 </template>
 
-  <script setup>
-    import useDate from "~/composables/useDate.js";
-    const { getTime, getDate } = useDate();
-    const props = defineProps ({
-    place: Object
-    })
-  </script>
+<script setup>
+  import useDate from "~/composables/useDate.js";
+  const { getTime, getDate } = useDate();
+  const props = defineProps ({
+  place: Object
+  })
+</script>
+
+<style scoped>
+
+</style>
 
 
 
