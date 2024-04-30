@@ -12,7 +12,8 @@ const {isNavbarHidden} = useNavbarVisibility();
 <template>
     <NuxtPwaManifest />
     <div class="flex flex-col justify-start h-screen">
-        <AppHeader/>
+        <AppHeader v-if="!isNavbarHidden"/>
+        <div class="mb-20" id="dummy"></div>
         <slot />
         <navigationBar v-if="!isNavbarHidden" />
     </div>
