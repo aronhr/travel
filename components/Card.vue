@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="`/schedule/${place.id}`">
+  <router-link :to="`/schedule/${place.id}`">
     <div class="p-2 ">
       <div class="grid grid-cols-3 grid-rows-3 gap-1  bg-dark min-h-96 rounded shadow-md p-2 bg-cover bg-center" :style="{ 'background-image': 'url('+ place.imageUrl +')' }">
       	<div class="col-start-3 row-start-1 justify-self-end p-2">
@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-  </NuxtLink>
+  </router-link>
 </template>
 
   <script setup>
