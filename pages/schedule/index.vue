@@ -31,9 +31,9 @@ watch(searchQuery, (newValue) => {
 </script>
 
 <template>
-    <div class="md:h-screen w-auto bg-dark p-2 text-white" id="content">
-      <div v-if="menuSelection==='places'" class="max-w-lg mx-auto">
-        <input type="text" v-model="searchQuery" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 text-black" placeholder="Search...">
+    <div class="md:h-screen w-auto bg-dark text-white" id="content">
+      <div v-if="menuSelection==='places'" class="max-w-lg mx-auto p-4 rounded-xl">
+        <input type="text" v-model="searchQuery" class="w-full p-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green text-black" placeholder="Search...">
       </div>
       <Transition name="card" mode="out-in">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">

@@ -65,9 +65,9 @@ isFav.value = isFavorite(place.id);
 
 <template>
   <div class="flex flex-col items-center py-1 px-4 h-full text-white gap-4">
-    <div class="flex flex-row gap-4 h-52">
+    <div class="flex flex-row gap-4 h-40">
       <img :src="place.imageUrl" alt="" class="object-cover w-1/3 rounded-lg bg-gold">
-      <div class="flex flex-col justify-start gap-2">
+      <div class="flex flex-col justify-start gap-2 w-full">
         <h1 class="text-xl font-bold line-clamp-2">
           {{ place?.title }}
            <!-- <span @click="saveFavorite(place.id); isFav = !isFav">
@@ -95,8 +95,8 @@ isFav.value = isFavorite(place.id);
         </div>
       </div>
     </div>
-    <p class="font-semibold text-lg line-clamp-3 text-center leading-5">{{ place.description }}</p>
-    <div class="absolute h-72 w-full bottom-20">
+    <p class="font-semibold text-lg text-center leading-5 md:w-1/2">{{ place.description }}</p>
+    <div class="absolute h-72 sm:h-[32rem] w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>
