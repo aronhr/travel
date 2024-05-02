@@ -5,7 +5,7 @@ export default function usePlaces() {
         return places.find((place) => place.id === id);
     };
 
-    const getAllPlaces = () => {
+    const getAllPlaces = (search) => {
         // get all favorite places from localstorage and sort by them
         const favoritePlaces = JSON.parse(localStorage.getItem('favorites')) || [];
         const allPlaces = places.map((place) => {
@@ -14,6 +14,14 @@ export default function usePlaces() {
                 isFavorite: favoritePlaces.includes(place.id),
             };
         });
+        if (search) {
+            // filter by all keys in the object
+            return allPlaces.filter((place) => {
+                return Object.keys(place).some((key) => {
+                    return place[key].toString().toLowerCase().includes(search.toLowerCase());
+                });
+            });
+        }
         return allPlaces.sort((a, b) => a.isFavorite === b.isFavorite ? 0 : a.isFavorite ? -1 : 1);
     }
 

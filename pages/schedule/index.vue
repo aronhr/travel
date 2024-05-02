@@ -19,46 +19,25 @@ const handleOnClick = (value) => {
 const computeButtonClass= (target) => {
     return target === menuSelection.value ? 'bg-gold font-bold' : 'bg-gray'
 };
-const SearchComponent = {
-  data() {
-    return {
-      searchQuery: '',
-      data: [
-        { id: 1, name: 'Item 1' },
-        { id: 2, name: 'Item 2' },
-        { id: 3, name: 'Item 3' },
-        // Other data items...
-      ]
-    };
-  },
-  computed: {
-    searchResults() {
-      return this.data.filter(item =>
-        item.name.toLowerCase().includes(this.searchQuery.toLowerCase())
-      );
-    }
-  },
-  methods: {
-    search() {
-      // No need to do anything here, as the computed property automatically updates based on searchQuery.
-    }
-  }
-};
+
+const searchQuery = ref('');
+const places = ref([]);
+places.value = getAllPlaces(searchQuery.value);
+
+watch(searchQuery, (newValue) => {
+  places.value = getAllPlaces(newValue);
+});
 
 </script>
 
 <template>
     <div class="md:h-screen w-auto bg-dark p-2 text-white" id="content">
-      <div class="max-w-lg mx-auto">
-        <input type="text" v-model="searchQuery" @input="search" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Search...">
-        <ul>
-          <li v-for="result in searchResults" :key="result.id">{{ result.name }}</li>
-        </ul>
+      <div v-if="menuSelection==='places'" class="max-w-lg mx-auto">
+        <input type="text" v-model="searchQuery" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 text-black" placeholder="Search...">
       </div>
-
       <Transition name="card" mode="out-in">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">
-            <div v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
+            <div v-for="place in places" :key="place.id" class="w-96" >
                   <Card :place="place"/>
             </div>
         </div>
