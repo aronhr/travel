@@ -18,25 +18,15 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   modules: [
-    'nuxt-primevue',
     "@nuxt/image",
     'nuxt-mapbox',
     '@vite-pwa/nuxt',
-    "@nuxt/content",
     '@nuxtjs/device'
   ],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
-    },
-  },
-  plugins: [
-    { src: '~/plugins/primevue.js', mode: 'client' }
-  ],
-  primevue: {
-    options: {
-      unstyled: true
     },
   },
   mapbox: {
@@ -81,12 +71,6 @@ export default defineNuxtConfig({
         }
       ],
     },
-    workbox: {
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
-    },
-    injectManifest: {
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
-    },
     client: {
       installPrompt: true,
       // you don't need to include this: only for testing purposes
@@ -100,8 +84,5 @@ export default defineNuxtConfig({
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
     }
-  },
-  content: {
-    // ... options
   }
 })

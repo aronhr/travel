@@ -1,6 +1,4 @@
 <script setup>
-import "primevue/resources/themes/saga-blue/theme.css";
-import "primevue/resources/primevue.min.css";
 import useNavbarVisibility from '../composables/useNavbarVisibility.js';
 const {isNavbarHidden} = useNavbarVisibility();
 
@@ -13,7 +11,7 @@ const computeLinkClass = (targetRoute) => {
 </script>
 <template>
     <Transition appear>
-        <div class="fixed bottom-0 w-full z-10 " :v-if="!isNavbarHidden">
+        <div class="fixed bottom-0 w-full z-10 " v-if="!isNavbarHidden">
             <div class="flex flex-row justify-end w-full mt-auto bg-dark text-gray py-4 z-10 h-20 items-center overflow-hidden">
                 <div class="flex flex-row justify-between w-full text-center">
                     <router-link to="/" class="w-1/3 border-r-2 border-white" :class="computeLinkClass('index')">
@@ -30,7 +28,7 @@ const computeLinkClass = (targetRoute) => {
         </div>
     </Transition>
 </template>
-        
+
 
 <style scoped>
 .v-enter-active {
@@ -63,5 +61,5 @@ const computeLinkClass = (targetRoute) => {
       scale: 0.9
     }
   }
-  
+
 </style>
