@@ -27,7 +27,7 @@ const x = setInterval(() => {
 </script>
 
 <template>
-  <div class="">
+  <Transition name="page">
     <div class="h-full flex flex-col justify-start text-white">
       <h1 class="text-6xl font-bold w-32 p-8">
         <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Edinborgar</span>
@@ -49,19 +49,17 @@ const x = setInterval(() => {
       </div>
       <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105" />
     </div>
-  </div>
-
-
+</Transition>
 </template>
 
 <style scoped>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 .page-enter-from,
 .page-leave-to {
+
   opacity: 0;
-  filter: blur(1rem);
 }
 </style>
