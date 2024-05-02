@@ -12,6 +12,8 @@ export default function usePlaces() {
 
     const getScheduledPlaces = () => {
         const scheduledPlaces = places.filter(place => scheduleItems.includes(place.id));
+        // Sort by scheduleItems time the time is in datetime format
+        scheduledPlaces.sort((a, b) => new Date(a.time) - new Date(b.time));
         return scheduledPlaces;
     }
 

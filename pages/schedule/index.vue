@@ -25,7 +25,7 @@ const computeButtonClass= (target) => {
     <div class="md:h-screen w-auto bg-dark text-white" id="content">
       <Transition name="card" mode="out-in">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">
-            <div  v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
+            <div v-for="place in getAllPlaces()" :key="place.id" class="w-96" >
                   <Card :place="place"/>
             </div>
         </div>
@@ -35,14 +35,14 @@ const computeButtonClass= (target) => {
             </div>
         </div>
       </Transition>
-        <Transition appear name="nav">
-          <div class="fixed bottom-24 w-full mx-auto" v-if="!isNavbarHidden">
-            <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
-                <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
-                <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
-            </div>
+      <Transition appear name="nav">
+        <div class="fixed bottom-24 w-full mx-auto" v-if="!isNavbarHidden">
+          <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
+              <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
+              <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
+          </div>
         </div>
-        </Transition>
+      </Transition>
     </div>
 
 </template>
@@ -107,7 +107,7 @@ const computeButtonClass= (target) => {
         transform: translateY(1vh); /* Moving the element 1vh down */
       }
   }
-  
+
   @-webkit-keyframes cardsShow {
     from {
       opacity: 0;
