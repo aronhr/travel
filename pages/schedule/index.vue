@@ -33,7 +33,7 @@ const computeButtonClass= (target) => {
         <div v-else class="flex flex-row flex-wrap justify-center gap-2">
           <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
             <!-- if new date then add h1 big font with the date name -->
-            <h1 v-if="getDate(place.time) !== getDate(getScheduledPlaces()[getScheduledPlaces().indexOf(place)-1]?.time)" class="text-4xl text-left font-extrabold px-2 py-2 z-[99999]">
+            <h1 v-if="getDate(place.time) !== getDate(getScheduledPlaces()[getScheduledPlaces().indexOf(place)-1]?.time)" class="text-4xl text-left font-extrabold px-2 py-2 z-[99999] md:hidden">
                 {{ getDate(place.time) }}
             </h1>
             <Card :place="place" />
