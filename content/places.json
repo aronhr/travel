@@ -355,7 +355,7 @@
     "title": "Edinburgh Castle",
     "description": "Edinburgh Castle is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age. There has been a royal castle on the rock since at least the reign of Malcolm III in the 11th century, and the castle continued to be a royal residence until 1633",
     "time": "2024-05-05T12:00:00",
-    "address": "Castlehill, Edinburgh EH1 2NG, United Kingdom",
+    "address": "Castlehill, Edinburgh",
     "location": "Edinburgh",
     "openingHours": "09:30 - 18:00",
     "coordinates": {
@@ -369,7 +369,7 @@
     "title": "AirBnb",
     "description": "Garden level apartment with its own private entrance. Consists of 1 Quad bedroom with en-suite, 1 Triple bedroom with en-suite, 1 Double bedroom with main bathroom opposite and 2 single box rooms. Can sleep up to 11 people or 12 with a guest bed (£25 supplement applies. )",
     "time": "2024-05-04T13:00:00",
-    "address": "16A York Pl, Edinburgh EH1 3EP, UK",
+    "address": "16A York Pl, Edinburgh",
     "location": "Edinburgh",
     "openingHours": "10:00 - 22:00",
     "coordinates": {
@@ -383,7 +383,7 @@
     "title": "McDonald's",
     "description": "Classic, long-running fast-food chain known for its burgers & fries.",
     "time": "2024-05-04T13:30:00",
-    "address": "3, 9 S St Andrew St, Edinburgh EH2 2AU, United Kingdom",
+    "address": "3, 9 St Andrew St, Edinburgh",
     "location": "Edinburgh",
     "openingHours": "05:00 - 03:00",
     "coordinates": {
@@ -397,7 +397,7 @@
     "title": "Salt Horse Beer Shop, Bar & Burgers",
     "description": "Quaint pub in stylish setting with a patio offering burgers, bar bites & a wide range of of beers.",
     "time": "2024-05-04T14:30:00",
-    "address": "57-61 Blackfriars St, Edinburgh EH1 1NB, United Kingdom",
+    "address": "57-61 Blackfriars St, Edinburgh",
     "location": "Edinburgh",
     "openingHours": "12:00 - 00:00",
     "coordinates": {
@@ -411,7 +411,7 @@
     "title": "Arons og Ólafs special",
     "description": "Kemur í ljós... bara eitthvað special.. Hérna er meiri texti til að þetta verði að tveimur línum. Hvað ætlum við að gera?",
     "time": "2024-05-05T09:00:00",
-    "address": "16A York Pl, Edinburgh EH1 3EP, UK",
+    "address": "16A York Pl, Edinburgh",
     "location": "Edinburgh",
     "openingHours": "09:00 - 10:00",
     "coordinates": {
