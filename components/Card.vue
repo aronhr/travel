@@ -20,16 +20,21 @@
           </div>
           <!-- Card Footer -->
           <div class="grid grid-cols-3 p-3 font-bold">
-            <div class="px-3 py-2 col-start-1">
+            <div v-if="place.time" class="px-3 py-2 col-start-1">
               <div class="flex flex-row items-center gap-2">
                 <i class="pi pi-clock"></i>
-                <div>
+                <div >
                   <p>{{ getTime(place.time) }}</p>
                   <p>{{ getDate(place.time) }}</p>
                 </div>
               </div>
             </div>
-            <div class="px-1 py-1 line-clamp-2 col-start-2 col-span-2">
+            <div class="px-1 py-1 line-clamp-2 col-span-2" v-if="place.time">
+              <div class="flex flex-row h-full items-center gap-2">
+                <i class="pi pi-map-marker"></i>{{ place.address }}
+              </div>
+            </div>
+            <div class="px-1 py-1 line-clamp-2 col-span-3" v-else>
               <div class="flex flex-row h-full items-center gap-2">
                 <i class="pi pi-map-marker"></i>{{ place.address }}
               </div>
