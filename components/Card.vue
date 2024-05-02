@@ -13,14 +13,24 @@
         <div class="bg-dark bg-opacity-70 p-2 rounded-lg row-start-4 col-span-3 justify-self-stretch">
           <!-- Card Body -->
           <div class="p-3 col-span-3">
-            <p class="line-clamp-3">{{ place.description }}</p>
+            <p class="line-clamp-3 italic font-semibold">{{ place.description }}</p>
           </div>
           <!-- Card Footer -->
-          <div class="grid grid-cols-3 p-3 rounded-b">
-            <p class="px-3 py-2 col-start-1">{{ getTime(place.time) }}</p>
-            <p class="px-3 py-2 col-start-2">{{ getDate(place.time) }}</p>
-            <p class="px-1 py-1 line-clamp-2 col-start-3">{{ place.address }}</p>
-
+          <div class="grid grid-cols-3 p-3 font-bold">
+            <div class="px-3 py-2 col-start-1">
+              <div class="flex flex-row items-center gap-2">
+                <i class="pi pi-clock"></i>
+                <div>
+                  <p>{{ getTime(place.time) }}</p>
+                  <p>{{ getDate(place.time) }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="px-1 py-1 line-clamp-2 col-start-2 col-span-2">
+              <div class="flex flex-row h-full items-center gap-2">
+                <i class="pi pi-map-marker"></i>{{ place.address }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -39,11 +49,3 @@
 <style scoped>
 
 </style>
-
-
-
-
-
-
-
-
