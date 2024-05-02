@@ -33,7 +33,7 @@ const computeButtonClass= (target) => {
         <div v-else class="flex flex-row flex-wrap justify-center gap-2">
           <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
             <!-- if new date then add h1 big font with the date name -->
-            <h1 v-if="getDate(place.time) !== getDate(getScheduledPlaces()[getScheduledPlaces().indexOf(place)-1]?.time)" class="text-4xl text-left font-extrabold px-2 py-2">
+            <h1 v-if="getDate(place.time) !== getDate(getScheduledPlaces()[getScheduledPlaces().indexOf(place)-1]?.time)" class="text-4xl text-left font-extrabold px-2 py-2 z-[99999] md:hidden">
                 {{ getDate(place.time) }}
             </h1>
             <Card :place="place" />
@@ -41,7 +41,7 @@ const computeButtonClass= (target) => {
         </div>
       </Transition>
       <Transition appear name="nav">
-        <div class="fixed bottom-24 w-full mx-auto" v-if="!isNavbarHidden">
+        <div class="fixed bottom-24 w-full mx-auto z-50" v-if="!isNavbarHidden">
           <div class="flex flex-row gap-0 w-52 h-8 justify-cente text-center mx-auto">
               <button class="w-full rounded-l-full transition border-r-2" @click="handleOnClick('schedule')" :class="computeButtonClass('schedule')">Schedule</button>
               <button class="w-full rounded-r-full transition" @click="handleOnClick('places')" :class="computeButtonClass('places')">Places</button>
