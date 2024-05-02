@@ -1,5 +1,4 @@
 <script setup>
-import useDate from "~/composables/useDate.js";
 import usePlaces from "~/composables/usePlaces.js";
 import 'mapbox-gl/dist/mapbox-gl.css';
 import '@mapbox/mapbox-gl-geocoder/lib/mapbox-gl-geocoder.css';
@@ -58,7 +57,7 @@ if ("geolocation" in navigator) {
                 </template>
             </MapboxMarker>
         </div>
-        
+
     </MapboxMap>
     </div>
 </template>

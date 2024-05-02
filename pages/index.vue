@@ -47,7 +47,7 @@ const x = setInterval(() => {
           bjóða
         </h3>
       </div>
-      <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105"/>
+      <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105" />
     </div>
 </Transition>
 </template>

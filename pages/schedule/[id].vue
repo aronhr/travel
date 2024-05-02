@@ -2,10 +2,12 @@
 // get slug from url
 import usePlaces from "~/composables/usePlaces.js";
 import useDate from "~/composables/useDate.js";
-
+import useFavorite from "~/composables/useFavorite.js";
 
 const { getPlaceById } = usePlaces()
 const { getTime, getDate } = useDate();
+const { isFavorite, saveFavorite } = useFavorite();
+
 const route = useRoute()
 
 const placeId = Number(route.params.id)
@@ -56,6 +58,9 @@ onMounted(() => {
   }
 })
 
+const isFav = ref(false);
+isFav.value = isFavorite(place.id);
+
 </script>
 
 <template>
@@ -63,7 +68,13 @@ onMounted(() => {
     <div class="flex flex-row gap-4 h-52">
       <img :src="place.imageUrl" alt="" class="object-cover w-1/3 rounded-lg bg-gold">
       <div class="flex flex-col justify-start gap-2">
-        <h1 class="text-xl font-bold line-clamp-2">{{ place?.title }}</h1>
+        <h1 class="text-xl font-bold line-clamp-2">
+          {{ place?.title }}
+           <span @click="saveFavorite(place.id); isFav = !isFav">
+            <i v-if="isFav" class="pi pi-star-fill text-yellow-400"></i>
+            <i v-else class="pi pi-star"></i>
+          </span>
+        </h1>
         <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
         <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
         <div class="flex flex-row">
