@@ -34,7 +34,7 @@ watch(searchQuery, (newValue) => {
     <div class="pb-20 w-auto bg-dark text-white" id="content">
       <Transition name="search" mode="out-in">
         <div v-if="menuSelection==='places'" class="max-w-lg mx-auto p-4 rounded-xl">
-          <input type="text" v-model="searchQuery" class="w-full p-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green text-black" placeholder="Search...">
+          <input type="text" v-model="searchQuery" class="w-full p-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green text-black font-semibold" placeholder="Search...">
         </div>
       </Transition>
       <Transition name="card" mode="out-in">
