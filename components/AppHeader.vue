@@ -4,7 +4,7 @@
 
 <template>
     <Transition appear>
-        <div class="fixed flex flex-row justify-center bg-dark z-10 h-20 w-full">
+        <div class="fixed flex flex-row justify-center bg-dark h-20 w-full z-50">
             <div class="w-1/3 flex flex-row justify-start items-center">
                 <button class="relative right-3" v-if="route.name === 'schedule-id'" @click="$router.go(-1)"><i class="pi pi-angle-left text-xl text-white"></i></button>
             </div>
