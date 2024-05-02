@@ -15,11 +15,11 @@ export default function usePlaces() {
             };
         });
         if (search) {
-            // filter by all keys in the object
+            // filter by all keys in the object except imageUrl
             return allPlaces.filter((place) => {
-                return Object.keys(place).some((key) => {
-                    return place[key].toString().toLowerCase().includes(search.toLowerCase());
-                });
+                return Object.keys(place)
+                    .filter((key) => key !== 'imageUrl')
+                    .some((key) => place[key].toLowerCase().includes(search.toLowerCase()));
             });
         }
         return allPlaces.sort((a, b) => a.isFavorite === b.isFavorite ? 0 : a.isFavorite ? -1 : 1);
