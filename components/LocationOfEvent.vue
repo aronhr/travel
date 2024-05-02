@@ -73,12 +73,13 @@ onMounted(() => {
                 closeOnClick: false,
                 }"
             >
-            <div class="flex flex-col w-full h-full">
+            <div class="flex flex-col w-full h-full gap-1">
               <h1 class="text-black text-lg font-bold">
                 {{ place.title }}
-            </h1>
-            <h3>{{ getTime(place.time) }} {{ getDate(place.time) }}</h3>
-            <NuxtLink :to="link" class="flex justify-center items-center bg-gold w-8 h-8 text-center rounded-lg"><i class="pi pi-directions text-2xl"></i></NuxtLink>
+              </h1>
+              <h3 v-if="place.time" class="">{{ getTime(place.time) }} {{ getDate(place.time) }}</h3>
+              <h3 v-else="place.openingHours" class="flex flex-row gap-1 items-center font-semibold"><i class="pi pi-clock"/>{{ place.openingHours }}</h3>
+              <NuxtLink :to="link" class="flex justify-center items-center bg-gold w-8 h-8 text-center rounded-lg"><i class="pi pi-directions text-2xl"></i></NuxtLink>
             </div>
         </MapboxDefaultPopup>
       </MapboxDefaultMarker>

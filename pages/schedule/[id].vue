@@ -78,7 +78,7 @@ isFav.value = isFavorite(place.id);
         <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
         <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
         <div class="flex flex-row">
-          <NuxtLink :to="link" class="flex flex-col justify-center items-center bg-gold w-1/2 h-14 text-center rounded-l-lg text-black drop-shadow-md">
+          <NuxtLink :to="link" :class="`flex flex-col justify-center items-center bg-gold w-1/2 h-14 text-center text-black drop-shadow-md ${!place?.time ? 'rounded-lg w-full' : 'rounded-l-lg'}`">
             <p class="text-xs font-bold">Get directions</p>
             <i class="pi pi-directions text-lg"></i>
           </NuxtLink>
