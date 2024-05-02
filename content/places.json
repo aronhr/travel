@@ -1,19 +1,5 @@
 [
   {
-    "id": 1,
-    "imageUrl": "https://www.whatsonnetwork.co.uk/uploads/800x600/2eeaa7ac753abc973bd1a1391cc955f0.jpg",
-    "title": "The Jazz Bar",
-    "description": "Lifandi tónlistarstaður þekktur fyrir jazz, funk og soul tónlist. Staðurinn býður upp á frábæra stemningu og úrval af drykkjum.",
-    "time": "",
-    "address": "1A Chambers Street, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "17:00 - 03:00",
-    "coordinates": {
-      "lat": 55.9473,
-      "lng": -3.1909
-    }
-  },
-  {
     "id": 2,
     "imageUrl": "https://images.trvl-media.com/lodging/73000000/72950000/72942300/72942233/9fd1cf5a.jpg?impolicy=resizecrop&rw=500&ra=fit",
     "title": "BrewDog Edinburgh",
