@@ -9,7 +9,7 @@
           </h2>
         </div>
         <div class="w-fit bg-dark z-10 bg-opacity-70 max-w-60 p-3 rounded-lg col-span-2 justify-self-start row-start-1 flex items-center">
-            <h2 class="text-lg z-10 font-semibold truncate">{{ place.title }}</h2>
+            <h2 class="text-lg z-10 font-bold truncate">{{ place.title }}</h2>
         </div>
         <!-- Card Header -->
         <div class="bg-dark z-10 bg-opacity-70 p-2 rounded-lg row-start-4 col-span-3 justify-self-stretch">

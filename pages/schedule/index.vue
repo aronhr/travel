@@ -31,10 +31,12 @@ watch(searchQuery, (newValue) => {
 </script>
 
 <template>
-    <div class="md:h-screen w-auto bg-dark text-white" id="content">
-      <div v-if="menuSelection==='places'" class="max-w-lg mx-auto p-4 rounded-xl">
-        <input type="text" v-model="searchQuery" class="w-full p-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green text-black" placeholder="Search...">
-      </div>
+    <div class="pb-20 w-auto bg-dark text-white" id="content">
+      <Transition name="search" mode="out-in">
+        <div v-if="menuSelection==='places'" class="max-w-lg mx-auto p-4 rounded-xl">
+          <input type="text" v-model="searchQuery" class="w-full p-2 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-green text-black" placeholder="Search...">
+        </div>
+      </Transition>
       <Transition name="card" mode="out-in">
         <div v-if="menuSelection==='places'" class="flex flex-row flex-wrap justify-center gap-2">
             <div v-for="place in places" :key="place.id" class="w-96" >
@@ -76,6 +78,13 @@ watch(searchQuery, (newValue) => {
   .card-leave-active {
     animation: cardsHide 0.1s
   }
+  .search-enter-active {
+    animation: searchShow 0.6s;
+  }
+  .search-leave-active {
+    animation: searchHide 0.1s
+  }
+
 
   @keyframes navbarShow {
     from {
@@ -136,6 +145,49 @@ watch(searchQuery, (newValue) => {
   }
 
   @-webkit-keyframes cardsHide {
+    from {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      -webkit-transform: translateY(1vh);
+    }
+  }
+  @keyframes searchShow {
+      from {
+        opacity: 0;
+        transform: translateY(0); /* Moving the element 1vh down from its original position */
+      }
+      to {
+        transform: translateY(0); /* Returning to the original position */
+        opacity: 1;
+      }
+  }
+
+  @keyframes searchHide {
+      from {
+        opacity: 1;
+        transform: translateY(0); /* Starting at the original position */
+      }
+      to {
+        opacity: 0;
+        transform: translateY(0); /* Moving the element 1vh down */
+      }
+  }
+
+  @-webkit-keyframes searchShow {
+    from {
+      opacity: 0;
+      -webkit-transform: translateY(1vh);
+    }
+    to {
+      -webkit-transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes searchHide {
     from {
       opacity: 1;
       -webkit-transform: translateY(0);
