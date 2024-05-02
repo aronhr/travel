@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      <img :src=place.imageUrl class="p-1 rounded-2xl absolute inset-0 w-full h-full object-cover -z-9">
+      <NuxtImg loading="lazy" :src=place.imageUrl class="p-1 rounded-2xl absolute inset-0 w-full h-full object-cover -z-9" />
     </div>
   </NuxtLink>
 </template>
