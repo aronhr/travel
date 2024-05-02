@@ -3,7 +3,10 @@
     <div class="p-2 ">
       <div class="grid grid-cols-3 grid-rows-3 gap-1  bg-dark min-h-96 rounded-xl shadow-md p-2 bg-cover bg-center" :style="{ 'background-image': 'url('+ place.imageUrl +')' }">
       	<div class="col-start-3 row-start-1 justify-self-end p-2">
-          <h2 class="text-lg font-semibold"><i class="pi pi-star"></i></h2>
+          <h2 class="text-lg font-semibold" @click="saveFavorite(place.id); isFav = !isFav">
+            <i v-if="isFav" class="pi pi-star-fill text-yellow-400"></i>
+            <i v-else class="pi pi-star"></i>
+          </h2>
         </div>
         <div class="w-fit bg-dark bg-opacity-70 max-w-60 p-3 rounded-lg col-span-2 justify-self-start row-start-1">
             <h2 class="text-lg font-semibold truncate">{{ place.title }}</h2>
@@ -39,11 +42,16 @@
 </template>
 
 <script setup>
-  import useDate from "~/composables/useDate.js";
-  const { getTime, getDate } = useDate();
-  const props = defineProps ({
+import useDate from "~/composables/useDate.js";
+const { getTime, getDate } = useDate();
+const { isFavorite, saveFavorite } = useFavorite();
+const props = defineProps ({
   place: Object
-  })
+})
+
+const isFav = ref(false);
+isFav.value = isFavorite(props.place.id);
+
 </script>
 
 <style scoped>
