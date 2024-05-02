@@ -70,10 +70,10 @@ isFav.value = isFavorite(place.id);
       <div class="flex flex-col justify-between gap-2 w-full h-full">
         <h1 class="text-xl font-bold line-clamp-2">
           {{ place?.title }}
-           <span @click="saveFavorite(place.id); isFav = !isFav">
+           <!-- <span @click="saveFavorite(place.id); isFav = !isFav">
             <i v-if="isFav" class="pi pi-star-fill text-yellow-400"></i>
             <i v-else class="pi pi-star"></i>
-          </span>
+          </span> -->
         </h1>
         <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
         <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
