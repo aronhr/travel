@@ -96,7 +96,7 @@ isFav.value = isFavorite(place.id);
       </div>
     </div>
     <p class="font-semibold text-lg line-clamp-3 text-center leading-5 md:w-1/2">{{ place.description }}</p>
-    <div class="absolute h-72 md:h-[32rem] w-full bottom-20">
+    <div class="absolute h-72 sm:h-[32rem] w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>
