@@ -15,7 +15,7 @@
         <div class="bg-dark z-10 bg-opacity-70 p-2 rounded-lg row-start-4 col-span-3 justify-self-stretch">
           <!-- Card Body -->
           <div class="p-3 col-span-3">
-            <p class="line-clamp-3 italic font-medium">{{ place.description }}</p>
+            <p class="line-clamp-2 italic font-medium">{{ place.description }}</p>
           </div>
           <!-- Card Footer -->
           <div class="grid grid-cols-3 p-3 font-bold">
@@ -28,7 +28,7 @@
             </div>
             <div :class="`px-1 py-1 flex flex-row items-center gap-2 ${place.time ? 'col-start-2 col-span-2' : 'col-span-3'}`">
               <i class="pi pi-map-marker" />
-              <p class="line-clamp-2">{{ place.address }}</p>
+              <p class="line-clamp-1">{{ place.address }}</p>
             </div>
           </div>
         </div>
