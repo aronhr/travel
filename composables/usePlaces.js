@@ -6,7 +6,15 @@ export default function usePlaces() {
     };
 
     const getAllPlaces = () => {
-        return places;
+        // get all favorite places from localstorage and sort by them
+        const favoritePlaces = JSON.parse(localStorage.getItem('favorites')) || [];
+        const allPlaces = places.map((place) => {
+            return {
+                ...place,
+                isFavorite: favoritePlaces.includes(place.id),
+            };
+        });
+        return allPlaces.sort((a, b) => a.isFavorite === b.isFavorite ? 0 : a.isFavorite ? -1 : 1);
     }
 
     const getScheduledPlaces = () => {
