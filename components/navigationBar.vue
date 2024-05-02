@@ -35,7 +35,7 @@ const computeLinkClass = (targetRoute) => {
     animation: swirlAdded 0.3s;
   }
   .v-leave-active {
-    animation: swirlRemove 0.1s
+    animation: swirlRemove 0.3s
   }
   @keyframes swirlAdded {
     from {
