@@ -1,8 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import path from "path";
 
-const sw = process.env.SW === 'true'
-
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
@@ -45,9 +43,9 @@ export default defineNuxtConfig({
     accessToken: process.env.MB_KEY
   },
   pwa: {
-    strategies: sw ? 'injectManifest' : 'generateSW',
-    srcDir: sw ? 'service-worker' : undefined,
-    filename: sw ? 'sw.ts' : undefined,
+    strategies: 'generateSW',
+    srcDir: undefined,
+    filename: undefined,
     registerType: 'autoUpdate',
     manifest: {
       name: 'Squaretable',
