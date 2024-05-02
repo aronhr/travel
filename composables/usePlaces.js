@@ -1,5 +1,4 @@
 import places from '~/content/places.json';
-import scheduleItems from '~/content/schedule.json'
 
 export default function usePlaces() {
     const getPlaceById = (id) => {
@@ -11,7 +10,7 @@ export default function usePlaces() {
     }
 
     const getScheduledPlaces = () => {
-        const scheduledPlaces = places.filter(place => scheduleItems.includes(place.id));
+        const scheduledPlaces = places.filter(place => place.time);
         // Sort by scheduleItems time the time is in datetime format
         scheduledPlaces.sort((a, b) => new Date(a.time) - new Date(b.time));
         return scheduledPlaces;
