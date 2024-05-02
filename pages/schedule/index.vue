@@ -9,6 +9,7 @@ import useNavbarVisibility from "~/composables/useNavbarVisibility.js";
 const menuSelection = ref('schedule');
 
 const { getAllPlaces, getScheduledPlaces } = usePlaces()
+const { getDate } = useDate();
 const {isNavbarHidden} = useNavbarVisibility();
 
 const handleOnClick = (value) => {
@@ -30,9 +31,11 @@ const computeButtonClass= (target) => {
             </div>
         </div>
         <div v-else class="flex flex-row flex-wrap justify-center gap-2">
-            <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
-                  <Card :place="place"  />
-            </div>
+          <div  v-for="place in getScheduledPlaces()" :key="place.id"  class="w-96">
+            <!-- if new date then add h1 big font with the date name -->
+            <h1 v-if="getDate(place.time) !== getDate(getScheduledPlaces()[getScheduledPlaces().indexOf(place)-1]?.time)" class="text-2xl text-center">{{ getDate(place.time) }}</h1>
+            <Card :place="place" />
+          </div>
         </div>
       </Transition>
       <Transition appear name="nav">

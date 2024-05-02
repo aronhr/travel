@@ -7,5 +7,9 @@ export default function useDate() {
         return new Date(timestamp).toLocaleString('is-IS', { month: 'long', day: 'numeric' });
     }
 
-    return { getTime, getDate };
+    const getWeekDay = (timestamp) => {
+        return new Date(timestamp).toLocaleString('is-IS', { weekday: 'long' });
+    }
+
+    return { getTime, getDate, getWeekDay };
 }
