@@ -418,5 +418,33 @@
       "lat": 55.956118,
       "lng": -3.191673
     }
+  },
+  {
+    "id": 31,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ksOj5fUyGFQLt7F6UpmmkA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=352.39313&pitch=0&thumbfov=100",
+    "title": "Arons og Ólafs special",
+    "description": "Kemur í ljós... bara eitthvað special.. Hérna er meiri texti til að þetta verði að tveimur línum. Hvað ætlum við að gera?",
+    "time": "2024-05-05T09:00:00",
+    "address": "16A York Pl, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "09:00 - 10:00",
+    "coordinates": {
+      "lat": 55.956118,
+      "lng": -3.191673
+    }
+  },
+  {
+    "id": 32,
+    "imageUrl": "https://www.mercattours.com/mediaLibrary/images/english/vaults-room-photo.jpeg",
+    "title": "The World Famous Underground Ghost Tour",
+    "description": "At street level, Edinburgh is a peaceful and pretty city—but the subterranean tunnels below tell an entirely different story. On this ghostly walking tour, explore historic sites including Greyfriars Kirkyard and St. Giles’ Cathedral with your enthusiastic guide, and hear chilling tales of murder and revenge. Delve down into underground caverns normally closed to the public, and learn of Edinburgh’s grim and gruesome past.",
+    "time": "2024-05-05T18:45:00",
+    "address": "124 High St, Edinburgh",
+    "location": "Edinburgh",
+    "openingHours": "18:45 - 20:00",
+    "coordinates": {
+      "lat": 55.94999808199867,
+      "lng": -3.188154702532069
+    }
   }
 ]
