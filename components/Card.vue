@@ -22,8 +22,8 @@
             <div class="col-span-1 flex flex-row items-center gap-2" v-if="place.time">
               <i class="pi pi-clock"></i>
               <div class="flex flex-col">
-                <p class="">{{ getTime(place.time) }}</p>
-                <p class="">{{ getDate(place.time) }}</p>
+                <p class="leading-tight">{{ getTime(place.time) }}</p>
+                <p class="leading-tight">{{ getDate(place.time) }}</p>
               </div>
             </div>
             <div :class="`px-1 py-1 flex flex-row items-center gap-2 ${place.time ? 'col-start-2 col-span-2' : 'col-span-3'}`">

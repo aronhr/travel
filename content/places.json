@@ -19,7 +19,7 @@
     "title": "The Scotch Whisky Experience",
     "description": "Fræðandi upplifun þar sem gestir geta lært allt um skoska viskíið og bragðað það. Fullkomin staður fyrir viskíáhugamenn.",
     "time": "",
-    "address": "354 Castlehill, The Royal Mile, Edinburgh",
+    "address": "354 Castlehill, The Royal Mile",
     "location": "Edinburgh",
     "openingHours": "10:00 - 17:00",
     "coordinates": {
@@ -403,20 +403,6 @@
     "coordinates": {
       "lat": 55.949277,
       "lng": -3.185690
-    }
-  },
-  {
-    "id": 31,
-    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ksOj5fUyGFQLt7F6UpmmkA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=352.39313&pitch=0&thumbfov=100",
-    "title": "Arons og Ólafs special",
-    "description": "Kemur í ljós... bara eitthvað special.. Hérna er meiri texti til að þetta verði að tveimur línum. Hvað ætlum við að gera?",
-    "time": "2024-05-05T09:00:00",
-    "address": "16A York Pl, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "09:00 - 10:00",
-    "coordinates": {
-      "lat": 55.956118,
-      "lng": -3.191673
     }
   },
   {

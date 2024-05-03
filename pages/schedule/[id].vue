@@ -66,19 +66,19 @@ isFav.value = isFavorite(place.id);
 <template>
   <div class="flex flex-col items-center py-1 px-4 h-full text-white gap-4">
     <div class="flex flex-row gap-4 h-40">
-      <img :src="place.imageUrl" alt="" class="object-cover w-1/3 rounded-lg bg-gold">
-      <div class="flex flex-col justify-between gap-2 w-full h-full">
-        <h1 class="text-xl font-bold line-clamp-2">
+      <img :src="place.imageUrl" alt="" class="object-cover w-1/3 max-w-96 rounded-lg bg-gold">
+      <div class="flex flex-col justify-start gap-2 w-full h-full">
+        <h1 class="text-lg font-bold line-clamp-2">
           {{ place?.title }}
            <!-- <span @click="saveFavorite(place.id); isFav = !isFav">
             <i v-if="isFav" class="pi pi-star-fill text-yellow-400"></i>
             <i v-else class="pi pi-star"></i>
           </span> -->
         </h1>
-        <p class="font-bold text-nowrap"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
-        <p class="font-bold line-clamp-2"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
-        <div class="flex flex-row">
-          <NuxtLink :to="link" :class="`flex flex-col justify-center items-center bg-gold w-1/2 text-center h-12 text-black drop-shadow-md ${!place?.time ? 'rounded-lg w-full' : 'rounded-l-lg'}`">
+        <p class="font-bold text-nowrap text-sm"><i class="pi pi-clock"></i> {{ place.openingHours }}</p>
+        <p class="font-bold line-clamp-2 text-sm"><i class="pi pi-map-marker"></i> {{ place.address }}</p>
+        <div class="flex flex-row mt-auto">
+          <NuxtLink :to="link" :class="`flex flex-col justify-center items-center bg-gold w-1/2 text-center h-10 text-black drop-shadow-md ${!place?.time ? 'rounded-lg w-full' : 'rounded-l-lg'}`">
             <p class="text-xs font-bold">Get directions</p>
             <i class="pi pi-directions text-lg"></i>
           </NuxtLink>
@@ -96,7 +96,7 @@ isFav.value = isFavorite(place.id);
       </div>
     </div>
     <p class="font-semibold text-lg text-center leading-5 md:w-1/2">{{ place.description }}</p>
-    <div class="absolute h-72 sm:h-[32rem] w-full bottom-20">
+    <div class="absolute h-72 sm:h-[28rem] w-full bottom-20">
       <LocationOfEvent :place="place" />
     </div>
   </div>

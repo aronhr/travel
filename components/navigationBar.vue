@@ -12,16 +12,16 @@ const computeLinkClass = (targetRoute) => {
 <template>
     <Transition appear>
         <div class="fixed bottom-0 w-full z-50 " v-if="!isNavbarHidden">
-            <div class="flex flex-row justify-end w-full mt-auto bg-dark text-gray py-4 z-10 h-20 items-center overflow-hidden">
+            <div class="flex flex-row w-full bg-dark text-gray py-4 z-10 h-20 items-center overflow-hidden">
                 <div class="flex flex-row justify-between w-full text-center">
-                    <router-link to="/" class="w-1/3 border-r-2 border-white" :class="computeLinkClass('index')">
-                        <i class="pi pi-home" style="font-size: 1.5rem" />
+                    <router-link to="/" class="group w-1/3 border-r-2 border-white" :class="computeLinkClass('index')">
+                        <i class="pi pi-home group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
                     </router-link>
-                    <router-link to="/schedule" class="w-1/3" :class="computeLinkClass('schedule')">
-                        <i class="pi pi-list" style="font-size: 1.5rem" />
+                    <router-link to="/schedule" class="group w-1/3" :class="computeLinkClass('schedule')">
+                        <i class="pi pi-list group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
                     </router-link>
-                    <router-link to="/place" class="w-1/3 border-l-2 border-white" :class="computeLinkClass('place')">
-                        <i class="pi pi-compass" style="font-size: 1.5rem" />
+                    <router-link to="/place" class=" group w-1/3 border-l-2 border-white" :class="computeLinkClass('place')">
+                        <i class="pi pi-compass group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
                     </router-link>
                 </div>
             </div>
