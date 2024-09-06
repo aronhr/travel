@@ -36,7 +36,7 @@ Here are some beer drinking games that can be easily hosted on a tablet or phone
     - If the ball lands in a cup, the opponent drinks.
     - You can keep track of scores and declare the first player to clear all cups the winner.
 
-### 6. **Never Have I Ever (Digital)**
+### x6. **Never Have I Ever (Digital)**
 - **How it Works**: Use a tablet to display random "Never Have I Ever" prompts.
 - **Game Rules**:
     - The tablet generates prompts like “Never have I ever… gone skydiving.”
