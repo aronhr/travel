@@ -1,6 +1,6 @@
 Here are some beer drinking games that can be easily hosted on a tablet or phone, ensuring everyone can participate using one shared device:
 
-### 1. **Kings Cup (Digital Edition)**
+### x1. **Kings Cup (Digital Edition)**
 - **How it Works**: Create a digital version of the classic card-based drinking game, Kings Cup, with a virtual deck of cards displayed on the tablet.
 - **Game Rules**:
     - Each player takes turns drawing a card.
@@ -8,21 +8,21 @@ Here are some beer drinking games that can be easily hosted on a tablet or phone
     - You can display the rules of each card on the tablet for reference.
     - Players follow the instructions for each card (e.g., take a sip, make a rule, pass a drink).
 
-### 2. **Spin the Bottle (Tablet Version)**
+### x2. **Spin the Bottle (Tablet Version)**
 - **How it Works**: Use the tablet to simulate a digital version of the classic "Spin the Bottle."
 - **Game Rules**:
     - Place the tablet in the middle of the group.
     - Players take turns tapping a virtual bottle on the screen to spin it.
     - When the bottle stops, the player it points to must drink or complete a fun challenge shown on the screen (e.g., truth or dare, drink twice, make a rule).
 
-### 3. **Drink Roulette**
+### x3. **Drink Roulette**
 - **How it Works**: Set up a simple roulette game where each "spin" leads to a fun drinking challenge or mini-game.
 - **Game Rules**:
     - Players tap to "spin" the roulette wheel.
     - The wheel lands on random drinking tasks such as "Everyone drinks", "Take two sips", "Pass your drink", or "Swap drinks."
     - You can add custom challenges to make it more engaging.
 
-### 4. **Quiz Game (Drink for Wrong Answers)**
+### x4. **Quiz Game (Drink for Wrong Answers)**
 - **How it Works**: Create a quick trivia quiz app or use a quiz app from an app store.
 - **Game Rules**:
     - Players take turns answering questions from various categories.
