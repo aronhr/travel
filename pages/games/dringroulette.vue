@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-// Players
-const players = ref([{ name: '' }]);
-
 // Selected challenge after spinning
 const currentChallenge = ref('');
 
@@ -132,21 +129,8 @@ const challenges = ref([
   'Say something nice about the person on your right or drink twice'
 ]);
 
-// Add and remove players
-const addPlayer = () => {
-  players.value.push({ name: '' });
-};
-
-const removePlayer = (index) => {
-  players.value.splice(index, 1);
-};
-
 // Spin the roulette
 const spinRoulette = () => {
-  if (players.value.length < 2 || players.value.some(player => !player.name.trim())) {
-    alert('Please enter at least 2 valid player names!');
-    return;
-  }
 
   isSpinning.value = true;
 
@@ -167,25 +151,8 @@ const spinRoulette = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-800 flex flex-col items-center justify-center text-white">
+  <div class="h-full bg-gray-800 flex flex-col items-center justify-center text-white">
     <h1 class="text-4xl font-bold mb-10">Drink Roulette</h1>
-
-    <!-- Player Input -->
-    <div v-if="!isSpinning && !currentChallenge" class="w-full max-w-lg mb-8">
-      <h2 class="text-2xl font-bold mb-4">Enter Players</h2>
-      <div v-for="(player, index) in players" :key="index" class="mb-2 flex items-center">
-        <input
-            v-model="player.name"
-            type="text"
-            placeholder="Enter player name"
-            class="bg-gray-200 text-black px-3 py-2 rounded-md w-full"
-        />
-        <button @click="removePlayer(index)" class="bg-red-500 text-white px-2 py-1 rounded-md ml-2">X</button>
-      </div>
-      <button @click="addPlayer" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
-        Add Player
-      </button>
-    </div>
 
     <!-- Roulette Spin -->
     <div class="w-full max-w-lg text-center">
@@ -194,7 +161,7 @@ const spinRoulette = () => {
         <div class="w-32 h-32 mx-auto">
           <img
               :style="{ transform: 'rotate(' + rouletteAngle + 'deg)' }"
-              class="transition-transform duration-[3s] ease-out"
+              class="transition-transform duration-[3s] ease-out "
               src="public/roulette.png"
               alt="Roulette"
           />
@@ -204,14 +171,14 @@ const spinRoulette = () => {
         <button
             @click="spinRoulette"
             :disabled="isSpinning"
-            class="mt-20 bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600 transition"
+            class="mt-20 bg-lime-600 font-bold text-white px-6 py-2 rounded-lg hover:bg-green-600 transition"
         >
           {{ isSpinning ? 'Spinning...' : 'Spin the Roulette' }}
         </button>
       </div>
 
       <!-- Challenge -->
-      <div v-if="currentChallenge && !isSpinning" class="mt-6 bg-white text-black p-4 rounded-lg">
+      <div v-if="currentChallenge && !isSpinning" class="mt-6 bg-white text-black p-4 rounded-lg transition-opacity ">
         <h2 class="text-2xl font-bold">Challenge: {{ currentChallenge }}</h2>
       </div>
     </div>

@@ -57,7 +57,7 @@ const resetGame = () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-800 flex flex-col items-center justify-center text-white">
+  <div class="h-full bg-gray-800 flex flex-col items-center justify-center text-white">
     <h1 class="text-4xl font-bold mb-10">Pass the Bomb (Drinking Version)</h1>
 
     <!-- Show the current category -->

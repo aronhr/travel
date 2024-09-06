@@ -1,66 +1,36 @@
 <script setup lang="ts">
+type game = {
+  name: string,
+  link: string,
+  color: string
+}
+
+const games: game[] = [
+  { name: 'Power Hour', link: '/games/powerhour', color: 'bg-red-500' },
+  { name: 'Kings Cup', link: '/games/kingscup', color: 'bg-blue-500' },
+  { name: 'Spin the Bottle', link: '/games/spinthebottle', color: 'bg-teal-700' },
+  { name: 'Quiz Game', link: '/games/quizgame', color: 'bg-yellow-500' },
+  { name: 'Drink Roulette', link: '/games/dringroulette', color: 'bg-purple-500' },
+  { name: 'Never Have I Ever', link: '/games/neverhaveiever', color: 'bg-pink-500' },
+  { name: 'Flip Cup Countdown', link: '/games/flipcup', color: 'bg-indigo-500' },
+  { name: 'Category Game', link: '/games/categorygame', color: 'bg-gray' },
+  { name: 'Dice Drinking Game', link: '/games/dicedrinkinggame', color: 'bg-orange-500' },
+  { name: 'Pass the Bomb', link: '/games/passthebomb', color: 'bg-teal-500' }
+]
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-800 flex flex-col items-center justify-center text-white">
+  <div class="h-full bg-gray-800 flex flex-col items-center justify-center text-white">
     <h1 class="text-4xl font-bold mb-20">Games</h1>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl">
-      <router-link
-          to="/games/powerhour"
-          class="bg-blue-500 text-white py-4 text-center rounded-lg hover:bg-blue-600 transition duration-300">
-        Power Hour
-      </router-link>
-      <router-link
-          to="/games/kingscup"
-          class="bg-green-500 text-white py-4 text-center rounded-lg hover:bg-green-600 transition duration-300">
-        Kings Cup
-      </router-link>
-      <router-link
-          to="/games/spinthebottle"
-          class="bg-purple-500 text-white py-4 text-center rounded-lg hover:bg-purple-600 transition duration-300">
-        Spin the Bottle
-      </router-link>
-      <router-link
-          to="/games/quizgame"
-          class="bg-red-500 text-white py-4 text-center rounded-lg hover:bg-red-600 transition duration-300">
-        Quiz Game
-      </router-link>
-      <router-link
-          to="/games/dringroulette"
-          class="bg-yellow-500 text-white py-4 text-center rounded-lg hover:bg-yellow-600 transition duration-300">
-        Drink Roulette
-      </router-link>
-      <!-- <router-link
-          to="/games/beerpongchallenge"
-          class="bg-pink-500 text-white py-4 text-center rounded-lg hover:bg-pink-600 transition duration-300">
-        Beer Pong Challenge
-      </router-link> -->
-      <router-link
-          to="/games/neverhaveiever"
-          class="bg-indigo-500 text-white py-4 text-center rounded-lg hover:bg-indigo-600 transition duration-300">
-        Never Have I Ever
-      </router-link>
-      <router-link
-          to="/games/flipcup"
-          class="bg-teal-500 text-white py-4 text-center rounded-lg hover:bg-teal-600 transition duration-300">
-        Flip Cup Countdown
-      </router-link>
-      <router-link
-          to="/games/categorygame"
-          class="bg-orange-500 text-white py-4 text-center rounded-lg hover:bg-orange-600 transition duration-300">
-        Category Game
-      </router-link>
-      <router-link
-          to="/games/dicedrinkinggame"
-          class="bg-gray-500 text-white py-4 text-center rounded-lg hover:bg-gray-600 transition duration-300">
-        Dice Drinking Game
-      </router-link>
-      <router-link
-          to="/games/passthebomb"
-          class="bg-cyan-500 text-white py-4 text-center rounded-lg hover:bg-cyan-600 transition duration-300">
-        Pass the Bomb
-      </router-link>
+    <div class="grid grid-cols-1 sm:grid-cols-2 w-full max-w-2xl gap-4">
+      <div v-for="(game, index) in games" :key="index" class="bg-gray-700 rounded-lg p-2 flex items-center justify-between h-20">
+        <nuxt-link
+          :to="game.link"
+          :class="[game.color, 'flex items-center justify-center w-full h-full text-white px-4 py-2 rounded-lg hover:bg-opacity-75 transition font-bold row-span-2 shadow-lg']"
+        >
+          {{ game.name }}
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center bg-primary-dark">
+  <div class="h-full flex flex-col items-center justify-center">
     <h1 class="text-4xl font-bold text-primary mb-6">Power Hour Contest</h1>
 
     <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-lg">
