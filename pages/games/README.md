@@ -43,14 +43,14 @@ Here are some beer drinking games that can be easily hosted on a tablet or phone
     - Players who have done the activity must take a drink.
     - You can either input your own questions or let the app randomly generate them.
 
-### 7. **Flip Cup Countdown**
+### x7. **Flip Cup Countdown**
 - **How it Works**: A digital countdown on the tablet helps players time their flips in a variation of the classic Flip Cup game.
 - **Game Rules**:
     - Each player flips a virtual cup on the tablet by swiping up at the right time.
     - A timer counts how fast each player flips their cup.
     - The slowest player drinks.
 
-### 8. **Category Game**
+### x8. **Category Game**
 - **How it Works**: Display a category on the tablet, and players take turns saying something that fits that category.
 - **Game Rules**:
     - Example categories could be "Types of Beer" or "Movie Titles".
