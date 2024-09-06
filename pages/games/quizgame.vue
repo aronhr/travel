@@ -10,7 +10,6 @@ useHead({
     }
   ]
 });
-})
 
 // Players
 const players = ref([{ name: '' }]);
