@@ -57,14 +57,14 @@ Here are some beer drinking games that can be easily hosted on a tablet or phone
     - Players take turns naming something in the category.
     - The first person to hesitate or repeat a word has to drink.
 
-### 9. **Dice Drinking Game (Tablet Version)**
+### x9. **Dice Drinking Game (Tablet Version)**
 - **How it Works**: Roll a digital die on the tablet, and the number corresponds to specific drinking actions.
 - **Game Rules**:
     - Players take turns tapping the screen to roll the virtual dice.
     - Each number (1-6) is tied to a drinking challenge (e.g., "1 = You drink", "2 = Everyone drinks", "3 = Swap drinks").
     - The randomness keeps the game exciting and unpredictable.
 
-### 10. **Pass the Bomb (Drinking Version)**
+### x10. **Pass the Bomb (Drinking Version)**
 - **How it Works**: Use the tablet to simulate a ticking bomb that passes between players.
 - **Game Rules**:
     - The "bomb" (timer) starts when the first player taps the tablet.
