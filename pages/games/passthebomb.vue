@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Pass the Bomb',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players pass a bomb around and try to avoid being the last one holding it.'
+    }
+  ]
+});
+
 // Categories for the game
 const categories = ref([
   'Types of Beer', 'Movie Titles', 'Countries', 'Fruits', 'Car Brands', 'Colors', 'Animals',

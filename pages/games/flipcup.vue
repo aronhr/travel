@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Flip Cup Countdown',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game wher'
+    }
+  ]
+});
+
 // Game State
 const players = ref([{ name: '', time: 0, flipped: false }]);
 const currentPlayerIndex = ref(0);

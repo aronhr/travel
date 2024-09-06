@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Dice Drinking Game',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players roll a dice to determine their drinking action.'
+    }
+  ]
+});
+
 // Dice state
 const diceNumber = ref(1); // Default starting value
 const diceAction = ref('Tap to Roll the Die');

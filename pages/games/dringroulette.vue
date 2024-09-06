@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Drink Roulette',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players spin a roulette to get a drinking challenge.'
+    }
+  ]
+});
+
 // Selected challenge after spinning
 const currentChallenge = ref('');
 

@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Kings Cup',
+  meta: [
+    {
+      name: 'description',
+      content: 'A classic drinking game where players draw cards and follow the rules associated with each card.'
+    }
+  ]
+});
+
 // Players
 const players = ref([{ name: '' }]);
 const currentPlayer = ref('');

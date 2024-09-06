@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Never Have I Ever',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players reveal things they have never done.'
+    }
+  ]
+});
+
 // Predefined Never Have I Ever prompts
 const prompts = ref([
   'Never have I ever gone skydiving.',

@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Quiz Game',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun quiz game where players answer trivia questions to test their knowledge.'
+    }
+  ]
+});
+})
+
 // Players
 const players = ref([{ name: '' }]);
 const currentPlayer = ref('');

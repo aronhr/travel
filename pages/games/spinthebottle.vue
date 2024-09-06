@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Spin the Bottle',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun game where players spin a bottle to get a challenge to perform.'
+    }
+  ]
+});
+
 // Players
 const players = ref([{ name: '' }]);
 const currentPlayer = ref('');

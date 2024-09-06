@@ -1,3 +1,14 @@
+<script setup>
+useHead({
+  title: 'Power Hour Contest',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players take turns completing tasks every minute for an hour.'
+    }
+  ]
+});
+</script>
 <template>
   <div class="h-full flex flex-col items-center justify-center">
     <h1 class="text-4xl font-bold text-primary mb-6">Power Hour Contest</h1>

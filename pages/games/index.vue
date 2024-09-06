@@ -1,4 +1,14 @@
 <script setup lang="ts">
+useHead({
+  title: 'Games',
+  meta: [
+    {
+      name: 'description',
+      content: 'A collection of fun drinking games to play with friends.'
+    }
+  ]
+});
+
 type game = {
   name: string,
   link: string,

@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
+useHead({
+  title: 'Category Game',
+  meta: [
+    {
+      name: 'description',
+      content: 'A fun drinking game where players have to name items in a category before time runs out.'
+    }
+  ]
+});
+
 // Predefined categories
 const categories = ref([
   'Types of Beer', 'Movie Titles', 'Countries', 'Fruits', 'Car Brands', 'Colors', 'Sports Teams',
