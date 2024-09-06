@@ -25,7 +25,8 @@ const games: game[] = [
   { name: 'Flip Cup Countdown', link: '/games/flipcup', color: 'bg-indigo-500' },
   { name: 'Category Game', link: '/games/categorygame', color: 'bg-gray' },
   { name: 'Dice Drinking Game', link: '/games/dicedrinkinggame', color: 'bg-orange-500' },
-  { name: 'Pass the Bomb', link: '/games/passthebomb', color: 'bg-teal-500' }
+  { name: 'Pass the Bomb', link: '/games/passthebomb', color: 'bg-teal-500' },
+  { name: 'Blackout', link: '/games/blackout', color: 'bg-yellow-500' }
 ]
 </script>
 
