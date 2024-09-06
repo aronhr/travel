@@ -29,7 +29,7 @@ Here are some beer drinking games that can be easily hosted on a tablet or phone
     - For each incorrect answer, the player must take a drink.
     - You can customize the questions to be about anything—music, pop culture, or even personal trivia about the group.
 
-### 5. **Beer Pong Challenge**
+### nooooo5. **Beer Pong Challenge**
 - **How it Works**: Use a digital version of Beer Pong where players flick ping-pong balls into virtual cups on the tablet.
 - **Game Rules**:
     - Players take turns "flicking" the ball toward cups displayed on the screen.

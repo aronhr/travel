@@ -31,11 +31,11 @@
           class="bg-yellow-500 text-white py-4 text-center rounded-lg hover:bg-yellow-600 transition duration-300">
         Drink Roulette
       </router-link>
-      <router-link
+      <!-- <router-link
           to="/games/beerpongchallenge"
           class="bg-pink-500 text-white py-4 text-center rounded-lg hover:bg-pink-600 transition duration-300">
         Beer Pong Challenge
-      </router-link>
+      </router-link> -->
       <router-link
           to="/games/neverhaveiever"
           class="bg-indigo-500 text-white py-4 text-center rounded-lg hover:bg-indigo-600 transition duration-300">
