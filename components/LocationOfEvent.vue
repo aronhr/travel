@@ -1,7 +1,7 @@
 <script setup>
 import { ref, defineProps } from 'vue';
 
-const longitude = ref(1); 
+const longitude = ref(1);
 const latitude = ref(1);
 const zoomLevel = ref(16);
 
@@ -54,14 +54,13 @@ onMounted(() => {
 
 <template>
   <div v-if="link">
-    <MapboxMap 
+    <MapboxMap
         :map-id="place.id.toString()"
         :options="{
             style: 'mapbox://styles/edvaldatli/clvk8iu2k01ed01qu0m2jgvgi', // style URL
             center: [ place.coordinates.lng, place.coordinates.lat], // starting position
             zoom: zoomLevel, // starting zoom
-            trackUserLocation: true,
-            pitch: 45
+            trackUserLocation: true
           }"
     >
     <MapboxDefaultMarker :markerId="place.id.toString()" :lnglat="[place.coordinates.lng, place.coordinates.lat]">
@@ -87,6 +86,6 @@ onMounted(() => {
       <MapboxFullscreenControl position="top-left"/>
     </MapboxMap>
   </div>
-    
+
 </template>
 

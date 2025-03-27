@@ -3,12 +3,12 @@ useHead({
   title: 'Squaretable'
 })
 // Create a countdown to the flight to edinburgh
-const countDownDate = new Date("May 4, 2024 08:35:00").getTime();
+const countDownDate = new Date("April 3, 2025 20:30:00").getTime();
 const timeToEvent = ref("");
 
 const now = new Date().getTime();
-const edinburghArrival = new Date("May 4, 2024 11:50:00").getTime();
-const edinburghDeparture = new Date("May 6, 2024 07:30:00").getTime();
+const edinburghArrival = new Date("April 4, 2025 04:40:00").getTime();
+const edinburghDeparture = new Date("April 6, 2024 19:30:00").getTime();
 
 // live update of the countdown
 const x = setInterval(() => {
@@ -30,9 +30,9 @@ const x = setInterval(() => {
   <Transition name="page">
     <div class="h-full flex flex-col justify-start text-white">
       <h1 class="text-6xl font-bold w-32 p-8">
-        <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Edinborgar</span>
+        <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Warsaw</span>
         <span v-else-if="now > edinburghDeparture"><p class="text-2xl text-nowrap"><span>Ekkert spennandi á döfinni</span></p></span>
-        <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Edinborgar</span>
+        <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Warsaw</span>
       </h1>
       <h1 v-if="timeToEvent !== 'EXPIRED'" class="text-6xl font-bold w-32 px-8 pb-8">
         <p class="text-2xl text-nowrap text-center"><span>{{ timeToEvent }}</span></p>

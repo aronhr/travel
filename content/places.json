@@ -1,436 +1,450 @@
 [
   {
-    "id": 2,
-    "imageUrl": "https://images.trvl-media.com/lodging/73000000/72950000/72942300/72942233/9fd1cf5a.jpg?impolicy=resizecrop&rw=500&ra=fit",
-    "title": "BrewDog Edinburgh",
-    "description": "Frumlegur og nútímalegur bar sem býður upp á fjölbreytt úrval af handverksbjór, bæði frá BrewDog og öðrum brugghúsum.",
-    "time": "",
-    "address": "143 Cowgate, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "id": 1,
+    "imageUrl": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1338869180665097220/original/b9a19a6c-29d6-48e1-819a-c2075bbf7d8c.jpeg?im_w=1440",
+    "title": "AirBnb",
+    "description": "This unique apartment of 69 m2 will comfortably accommodate 8 people. It is an excellent option for a family or a group of friends looking for a comfortable place to stay in Warsaw. The interiors are carefully decorated, functional and filled with natural light thanks to large windows. Appropriately selected additions create a homely and cosy atmosphere, while the light colour scheme gives the interior spaciousness and freshness, creating a space conducive to relaxation. The layout of the rooms includes a living room with kitchenette, two bedrooms, a balcony and a bathroom. The living area impresses with its comfort, where two, soft sofas with a sleeping function invite you to relax and unwind. The living room leads out onto a furnished balcony, where you can enjoy your morning coffee prepared in the available coffee machine. The kitchenette has been designed in a functional and elegant way, with modern appliances and furniture creating a harmonious whole with the rest of the flat. The master bedroom, with its double bed, is a cosy space that provides a peaceful night's sleep and recuperation after an eventful day. Between the living room and the bedroom with a bunk bed, there is an additional bedroom space with a double bed, which is separated from the rest of the apartment thanks to long curtains. The bathroom with shower has a hairdryer and a washing machine, which adds significantly to the comfort of the stay. Evening entertainment is provided by multimedia, such as a flat-screen Smart TV, a projector, as well as Wi-Fi access. For a good start, guests are provided with complimentary toiletries, towels and bed linen. In addition, it is possible to come to the apartment with your pet.",
+    "time": "2025-04-04T05:30:00",
+    "address": "Wspólna 65A",
+    "location": "Warsaw",
+    "openingHours": "24/7",
     "coordinates": {
-      "lat": 55.9485,
-      "lng": -3.1919
+      "lat": 52.226057,
+      "lng": 21.008378
+    }
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMmWfFmeBzlUEmhnxGW7mMTag9QWwJsGgLfcg3x=w408-h243-k-no",
+    "title": "Starbucks",
+    "description": "Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability.",
+    "time": "",
+    "address": "Warsaw Central",
+    "location": "Warsaw",
+    "openingHours": "04:45 - 23:00",
+    "coordinates": {
+      "lat": 52.228335,
+      "lng": 21.004067
     }
   },
   {
     "id": 3,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj_Meb9yQ71KyWWn_mWYUNeMmgScFy4XkR5sHGNL62LA&s",
-    "title": "The Scotch Whisky Experience",
-    "description": "Fræðandi upplifun þar sem gestir geta lært allt um skoska viskíið og bragðað það. Fullkomin staður fyrir viskíáhugamenn.",
-    "time": "",
-    "address": "354 Castlehill, The Royal Mile",
-    "location": "Edinburgh",
-    "openingHours": "10:00 - 17:00",
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMPUYnV33b7P6fVhlIs6EqjvsqxHgbtTpLIXSWH=w408-h272-k-no",
+    "title": "McDonald's",
+    "description": "Classic, long-running fast-food chain known for its burgers & fries.",
+    "time": "2025-04-04T10:00:00",
+    "address": "Warsaw Central",
+    "location": "Warsaw",
+    "openingHours": "05:00 - 03:00",
     "coordinates": {
-      "lat": 55.9486,
-      "lng": -3.1958
+      "lat": 52.228335,
+      "lng": 21.004067
     }
   },
   {
     "id": 4,
-    "imageUrl": "https://ewh.org.uk/wp-content/uploads/2023/11/Royal-Mile.png",
-    "title": "The Royal Mile",
-    "description": "Þessi fræga göngugata er full af sögu og menningu, með verslanir sem selja allt frá handverki til viskís.",
-    "time": "",
-    "address": "Royal Mile, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "Always Open",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6d/86/bf/photo0jpg.jpg?w=1000&h=-1&s=1",
+    "title": "Pub Crawl",
+    "description": "Whether you’re looking to meet new people or would just like to know where to go for drink, spice up your night—and your life—on a fun-packed tour of Warsaw’s best bars and clubs. Visit various venues for a free drink and excellent discounts before ending the night with skip-the-line entry to a popular nightclub.",
+    "time": "2025-04-05T20:00:00",
+    "address": "Klub Makulatura",
+    "location": "Warsaw",
+    "openingHours": "20:00 - 00:00",
     "coordinates": {
-      "lat": 55.9501,
-      "lng": -3.1858
+      "lat": 52.233063,
+      "lng": 21.018307
     }
   },
   {
     "id": 5,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeeC6Wh8gwaWr88PGHkUjmo6ZInY8B6g1c8GxmFXdvDQ&s",
-    "title": "Cadenhead's Whisky Shop",
-    "description": "Eldsta óháða viskíbrugghúsið í Skotlandi. Frábær staður til að kaupa einstakt viskí, hvort sem er fyrir sjálfan þig eða sem gjöf.",
-    "time": "",
-    "address": "172 Canongate, Royal Mile, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "10:30 - 17:30",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/99/c4/e5.jpg",
+    "title": "Indoor Shooting Range",
+    "description": "Visit Warszawa Shooting Range in Warsaw and learn to shoot a range of firearms under the guidance of a professional instructor. With this 45-minute shooting package, fire six different guns from distances of 5, 10, 15, and 20 meters, including an AK 47, a CZ 75 Kadet pistol, a Glock 17, a Colt 1911, and a shotgun.",
+    "time": "2025-04-04T12:00:00",
+    "address": "Krakowiaków 80A",
+    "location": "Warsaw",
+    "openingHours": "11:00 - 21:00",
     "coordinates": {
-      "lat": 55.9517,
-      "lng": -3.1802
+      "lat": 52.191348,
+      "lng": 20.935778
     }
   },
   {
     "id": 6,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2qldXmqTxkmbkzDeKP8UNkYarPfzDFXQXoSBFwFhuRg&s",
-    "title": "Panda & Sons",
-    "description": "Einrækt speakeasy bar sem lítur út fyrir að vera bókabúð. Frábær staður fyrir handgerða kokteila.",
-    "time": "",
-    "address": "79 Queen St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "16:00 - 01:00",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/db/cb/54/a1karting-gokart-track.jpg?w=900&h=500&s=1",
+    "title": "Go Karting",
+    "description": "Fast go-kart racetrack with training, plus conference & meeting spaces for team-building sessions.",
+    "time": "2025-04-04T14:00:00",
+    "address": "Annopol 24B",
+    "location": "Warsaw",
+    "openingHours": "10:00 - 22:00",
     "coordinates": {
-      "lat": 55.9555,
-      "lng": -3.1987
+      "lat": 52.315548,
+      "lng": 21.014995
     }
   },
   {
     "id": 7,
-    "imageUrl": "https://www.euansguide.com/remote.axd/nucleusimagery.blob.core.windows.net%2Flive%2F9d9450ee-3cd1-4ef5-98b0-744b6461fdc5?width=768&height=345&mode=crop",
-    "title": "Holyrood 9A",
-    "description": "Gestgjafi yfir 20 tegundir af bjór á krana og býður upp á stórt úrval af borgurum.",
+    "imageUrl": "https://scitynightclub.pl/Color%20logo%20-%20no%20background.png",
+    "title": "SCity Club",
+    "description": "Special place",
     "time": "",
-    "address": "9A Holyrood Rd, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "10:00 - 01:00",
+    "address": "Nowogrodzka 31",
+    "location": "Warsaw",
+    "openingHours": "24/7",
     "coordinates": {
-      "lat": 55.9510,
-      "lng": -3.1817
+      "lat": 52.229110,
+      "lng": 21.013789
     }
   },
   {
     "id": 8,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbd7WgcnahtES12Kn5disJiLGW2b60aRzzbAMJrt-2eg&s",
-    "title": "The Hanging Bat",
-    "description": "Þetta brugghús býður upp á sérstakt úrval af handverksbjór og lifandi stemningu.",
+    "imageUrl": "https://images.myguide-cdn.com/warsaw/companies/w-oparach-absurdu/large/w-oparach-absurdu-130953.jpg",
+    "title": "W Oparach Absurdu",
+    "description": "Bohemískur bar með listrænu andrúmslofti, litrík hönnun og lifandi tónlist.",
     "time": "",
-    "address": "133 Lothian Rd, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 00:00",
+    "address": "ul. Ząbkowska 6",
+    "location": "Warsaw",
+    "openingHours": "18:00 - 03:00",
     "coordinates": {
-      "lat": 55.9448,
-      "lng": -3.2064
+      "lat": 52.2524,
+      "lng": 21.0376
     }
   },
   {
     "id": 9,
-    "imageUrl": "https://media.timeout.com/images/101721665/image.jpg",
-    "title": "The Devil's Advocate",
-    "description": "Staðsett í gamalli bókabúð, þessi bar býður upp á yfir 300 tegundir af viskí og frábæra matseðla.",
+    "imageUrl": "https://go.wroclaw.pl/api/download/img-d23076242df7bd083d177391d01316a1/cuda1-panorama-jpg.jpg",
+    "title": "Cuda na Kiju",
+    "description": "Staður sem býður upp á fjölbreytta bjóra á krana, pizzu og gott útsýni yfir borgina.",
     "time": "",
-    "address": "9 Advocates Close, High St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "address": "ul. Nowy Świat 6/12",
+    "location": "Warsaw",
+    "openingHours": "12:00 - 02:00",
     "coordinates": {
-      "lat": 55.9502,
-      "lng": -3.1908
+      "lat": 52.2329,
+      "lng": 21.0172
     }
   },
   {
     "id": 10,
-    "imageUrl": "https://www.foodjunkieuk.co.uk/wp-content/uploads/2018/12/10746829328_IMG_0417-1024x776.jpg",
-    "title": "Oink",
-    "description": "Sérhæfir sig í svínakjötsmorgunverði sem er útseldur snemma, staðurinn er frábær fyrir snögga og góða máltíð.",
+    "imageUrl": "https://warsawinsider.pl/wp-content/uploads/2023/11/WI_275_Pardon_To_Tu-1.jpg",
+    "title": "Pardon, To Tu",
+    "description": "Smár en hlýlegur bar sem býður upp á lifandi tónlistarkvöld og fjölda bjóra.",
     "time": "",
-    "address": "34 Victoria St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 18:00",
+    "address": "Pl. Grzybowski 12/16",
+    "location": "Warsaw",
+    "openingHours": "17:00 - 02:00",
     "coordinates": {
-      "lat": 55.9487,
-      "lng": -3.1939
+      "lat": 52.2345,
+      "lng": 21.0037
     }
   },
   {
     "id": 11,
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Summerhall_arts_hub.JPG",
-    "title": "Summerhall",
-    "description": "Listamiðstöð sem hýsir reglulega tónlistarviðburði, leikhús og listasýningar.",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/2b/f0/62/f6/beer-bar.jpg",
+    "title": "PiwPaw Beer Heaven",
+    "description": "Mjög umfangsmikill handverksbjórbar með hundruðum bjóra til að prófa.",
     "time": "",
-    "address": "1 Summerhall, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "10:00 - 23:00",
+    "address": "ul. Parkingowa 5",
+    "location": "Warsaw",
+    "openingHours": "16:00 - 02:00",
     "coordinates": {
-      "lat": 55.9407,
-      "lng": -3.1824
+      "lat": 52.2292,
+      "lng": 21.0185
     }
   },
   {
     "id": 12,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvRdDeDJA1Hqqi9ee3SeGMx-trVNhNibF5w6q45qdHCg&s",
-    "title": "The Bow Bar",
-    "description": "Heimilislegur bar með yfir 200 tegundir af viskí og fjölbreytta bjóraúrval.",
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0b/55/d2/2f/front-room.jpg",
+    "title": "Same Krafty",
+    "description": "Handverksbjórbar í gamla bænum, útiservering á sumrin og pizzur í boði.",
     "time": "",
-    "address": "80 West Bow, Victoria St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 01:00",
+    "address": "ul. Nowomiejska 10",
+    "location": "Warsaw",
+    "openingHours": "14:00 - 00:00",
     "coordinates": {
-      "lat": 55.9484,
-      "lng": -3.1942
+      "lat": 52.2490,
+      "lng": 21.0120
     }
   },
   {
     "id": 13,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/05/f2/09/1d/the-brass-monkey.jpg",
-    "title": "Brass Monkey",
-    "description": "Slakaður bar þar sem hægt er að horfa á bíómyndir á bakvið tjöldin eða njóta drykkjar við arineld.",
+    "imageUrl": "https://lh4.googleusercontent.com/proxy/0qOarkYoHhSJ566_GOEL0e_q4DvTCTx1PApGvpAIJBywIYwEsFCou44eGlSb3beboshamf7Nc4XnNc6vM2w1jb3bNSGP08U",
+    "title": "Beerokracja",
+    "description": "Sérhæfir sig í pólskum og alþjóðlegum handverksbjór, afslappað andrúmsloft.",
     "time": "",
-    "address": "14 Drummond St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "address": "ul. Marszałkowska 99/101",
+    "location": "Warsaw",
+    "openingHours": "16:00 - 02:00",
     "coordinates": {
-      "lat": 55.9473,
-      "lng": -3.1859
+      "lat": 52.2275,
+      "lng": 21.0128
     }
   },
   {
     "id": 14,
-    "imageUrl": "https://media.timeout.com/images/101721637/image.jpg",
-    "title": "Café Royal Circle Bar",
-    "description": "Sögulegur staður með stórbrotnu innra byggingarlistinni og breitt úrval af bjórum og viskí.",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1f/10/13/great-craft-beer-bar.jpg?w=900&h=500&s=1",
+    "title": "Chmielarnia",
+    "description": "Bjórbar og veitingastaður með fjölbreytt úrval af handverksbjór og asískum mat.",
     "time": "",
-    "address": "19 West Register St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 23:00",
+    "address": "ul. Twarda 42",
+    "location": "Warsaw",
+    "openingHours": "12:00 - 01:00",
     "coordinates": {
-      "lat": 55.9536,
-      "lng": -3.1899
+      "lat": 52.2322,
+      "lng": 21.0014
     }
   },
   {
     "id": 15,
-    "imageUrl": "https://static.toiimg.com/photo/msid-44861606,width-96,height-65.cms",
-    "title": "Under the Stairs",
-    "description": "Kósí bar undir stiga með einstakri stemningu, býður upp á handverkskokteila og matseðil með skapandi réttum.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtsYEf0770-mzlqb8-yeINEAa8Pln8BxUqsg&s",
+    "title": "Pinta Wawa",
+    "description": "Vinsæll handverksbjórbar sem býður upp á vörur frá Pinta brugghúsinu ásamt öðrum tegundum.",
     "time": "",
-    "address": "3A Merchant St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "17:00 - 01:00",
+    "address": "ul. Smolna 32",
+    "location": "Warsaw",
+    "openingHours": "16:00 - 02:00",
     "coordinates": {
-      "lat": 55.9483,
-      "lng": -3.1917
+      "lat": 52.2313,
+      "lng": 21.0249
     }
   },
   {
     "id": 16,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/bb/84/70/striking-frontage-of.jpg?w=1200&h=1200&s=1",
-    "title": "Sandy Bell's",
-    "description": "Heimilislegur bar þekktur fyrir lifandi þjóðlagatónlist. Frábær staður fyrir þá sem njóta góðs tónlistar og samveru.",
+    "imageUrl": "https://example.com/craftbeermuranow.jpg",
+    "title": "Craft Beer Muranów",
+    "description": "Notalegur bar í Muranów-hverfinu, með úrvali af pólskum og evrópskum handverksbjór.",
     "time": "",
-    "address": "25 Forrest Rd, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "address": "ul. Andersa 23",
+    "location": "Warsaw",
+    "openingHours": "15:00 - 01:00",
     "coordinates": {
-      "lat": 55.9466,
-      "lng": -3.1924
+      "lat": 52.2462,
+      "lng": 20.9951
     }
   },
   {
     "id": 17,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYZT7b4NMmVwe-Qz4DSSxsr5Wcu_hIMc12rRRa_CqgQ&s",
-    "title": "Leith Depot",
-    "description": "Hugljúfur staður með frábærri stemningu, býður upp á lifandi tónlist og er þekktur fyrir listasýningar og viðburði.",
+    "imageUrl": "https://example.com/hoppiness.jpg",
+    "title": "Hoppiness",
+    "description": "Nútímalegur bjórbar með fjölbreytta krana, sérstök kokteiltilboð og street food-rétti.",
     "time": "",
-    "address": "138-140 Leith Walk, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 00:00",
+    "address": "ul. Chmielna 27",
+    "location": "Warsaw",
+    "openingHours": "17:00 - 02:00",
     "coordinates": {
-      "lat": 55.9692,
-      "lng": -3.1725
+      "lat": 52.2310,
+      "lng": 21.0156
     }
   },
   {
     "id": 18,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYYWxtSWxuQFb1JSQHVvYsLdaXsL5N-wN7enSrqWVMRQ&s",
-    "title": "The Last Drop",
-    "description": "Sögulegur bar í hjarta Grassmarket, frábær fyrir áhugafólk um sögu og góðan bjór.",
+    "imageUrl": "https://example.com/shelter.jpg",
+    "title": "Shelter",
+    "description": "Myrkur og stemmningsríkur staður með rokktónlist og fjölbreyttum drykkjum.",
     "time": "",
-    "address": "74-78 Grassmarket, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 01:00",
+    "address": "ul. Jasna 1",
+    "location": "Warsaw",
+    "openingHours": "20:00 - 04:00",
     "coordinates": {
-      "lat": 55.9471,
-      "lng": -3.1975
+      "lat": 52.2328,
+      "lng": 21.0074
     }
   },
   {
     "id": 19,
-    "imageUrl": "https://lh4.googleusercontent.com/proxy/CQGBXRUt0ZUtHtBL0TpShj52UjctfSAAk-5rYwCqDXdLC46u_qpTnomXN01ZSoQChRWpw-RvkTkY-w",
-    "title": "Lucky Liquor Co.",
-    "description": "Nútímalegur bar sem býður upp á einstök kokteil í stílhreinu umhverfi.",
+    "imageUrl": "https://example.com/podwalebarandbooks.jpg",
+    "title": "Podwale Bar and Books",
+    "description": "Fíngerður bar sem býður upp á kokteila, viskí og sigara í klassísku umhverfi.",
     "time": "",
-    "address": "39A Queen St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "16:00 - 01:00",
+    "address": "ul. Wąski Dunaj 20",
+    "location": "Warsaw",
+    "openingHours": "18:00 - 02:00",
     "coordinates": {
-      "lat": 55.9558,
-      "lng": -3.1978
+      "lat": 52.2496,
+      "lng": 21.0112
     }
   },
   {
     "id": 20,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJD3Bw5PVmtdtHtpT1mv0Z-km7Mnithz_5CTAlgpJ8KQ&s",
-    "title": "Joseph Pearce's",
-    "description": "Sænskur bar sem býður upp á sænska matargerð og frábæra bjóra. Frábær staður fyrir þá sem vilja upplifa eitthvað nýtt.",
+    "imageUrl": "https://example.com/coctailbarmax.jpg",
+    "title": "Coctail Bar Max & Dom Whisky",
+    "description": "Kokteilbar með miklu úrvali af viskí, klassískum og nýstárlegum kokteilum.",
     "time": "",
-    "address": "23 Elm Row, Leith Walk, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 01:00",
+    "address": "ul. Krucza 16/22",
+    "location": "Warsaw",
+    "openingHours": "18:00 - 03:00",
     "coordinates": {
-      "lat": 55.9606,
-      "lng": -3.1841
+      "lat": 52.2290,
+      "lng": 21.0122
     }
   },
   {
     "id": 21,
-    "imageUrl": "https://hostmerestaurants.blob.core.windows.net/photos/original/the-mash-tun-edinburgh-b5a02a45b404d2d4b429c30ac2b1237b",
-    "title": "The Mash Tun",
-    "description": "Notalegur bar með fjölbreyttri matseðill og góðum bjór. Vinsælt meðal heimamanna.",
+    "imageUrl": "https://example.com/backroom.jpg",
+    "title": "BackRoom",
+    "description": "Felubar (speakeasy) sem er staðsettur bakvið leynihurð, nýstárlegir kokteilar.",
     "time": "",
-    "address": "154 Easter Rd, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 00:00",
+    "address": "ul. Nowogrodzka 22",
+    "location": "Warsaw",
+    "openingHours": "19:00 - 02:00",
     "coordinates": {
-      "lat": 55.9618,
-      "lng": -3.1659
+      "lat": 52.2307,
+      "lng": 21.0079
     }
   },
   {
     "id": 22,
-    "imageUrl": "https://www.thebarfly.co.uk/wp-content/uploads/2014/09/Blue-Blazer-ext-0914-800.jpg",
-    "title": "The Blue Blazer",
-    "description": "Gamaldags bar með miklu úrvali af viskí og bjór. Þekktur fyrir sinn heimilislega anda.",
+    "imageUrl": "https://example.com/syrenispiew.jpg",
+    "title": "Syreni Śpiew",
+    "description": "Stór og glæsilegur bar með lifandi tónlist, úrval kokteila og bjóra.",
     "time": "",
-    "address": "2 Spittal St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "11:00 - 01:00",
+    "address": "ul. Szara 10A",
+    "location": "Warsaw",
+    "openingHours": "20:00 - 03:00",
     "coordinates": {
-      "lat": 55.9470,
-      "lng": -3.1997
+      "lat": 52.2181,
+      "lng": 21.0393
     }
   },
   {
     "id": 23,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/bc/46/1e/bannerman-s.jpg?w=1200&h=-1&s=1",
-    "title": "Bannerman's Bar",
-    "description": "Rock bar með góðri stemningu, tónleikum og breiðu úrvali af drykkjum. Fullkomið fyrir tónlistarunnendur.",
+    "imageUrl": "https://example.com/zamieszanie.jpg",
+    "title": "Zamieszanie",
+    "description": "Kokteilbar sem sameinar norrænan minimalisma og pólsk áhrif í frumlegum drykkjum.",
     "time": "",
-    "address": "212 Cowgate, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "address": "ul. Nowy Świat 22/28",
+    "location": "Warsaw",
+    "openingHours": "18:00 - 02:00",
     "coordinates": {
-      "lat": 55.9482,
-      "lng": -3.1915
+      "lat": 52.2320,
+      "lng": 21.0191
     }
   },
   {
     "id": 24,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/17/d4/24/c3/cosy-traditional-basement.jpg",
-    "title": "The Antiquary",
-    "description": "Kósí bar í neðanjarðar rými með stórt úrval af viskí og hlýja stemningu.",
+    "imageUrl": "https://example.com/karmnik.jpg",
+    "title": "Karmnik",
+    "description": "Notalegur bar í gamla bænum, bjóðandi umhverfi og ljúffengir smáréttir.",
     "time": "",
-    "address": "72-78 St Stephen St, Edinburgh",
-    "location": "Edinburgh",
+    "address": "ul. Piwna 4A",
+    "location": "Warsaw",
     "openingHours": "12:00 - 01:00",
     "coordinates": {
-      "lat": 55.9583,
-      "lng": -3.2083
+      "lat": 52.2495,
+      "lng": 21.0125
     }
   },
   {
     "id": 25,
-    "imageUrl": "https://images.otstatic.com/prod/23975018/1/huge.jpg",
-    "title": "Paradise Palms",
-    "description": "Líflegur og litríkur bar og veitingastaður, þekktur fyrir skemmtilega kokteila og veglegan mat.",
+    "imageUrl": "https://example.com/resort.jpg",
+    "title": "Resort",
+    "description": "Töff bar með einstöku innanhússlúkki, lifandi tónlistarviðburðir og listrænir gjörningar.",
     "time": "",
-    "address": "41 Lothian St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 01:00",
+    "address": "ul. Bielańska 1",
+    "location": "Warsaw",
+    "openingHours": "18:00 - 03:00",
     "coordinates": {
-      "lat": 55.9464,
-      "lng": -3.1890
+      "lat": 52.2443,
+      "lng": 21.0089
     }
   },
   {
     "id": 26,
-    "imageUrl": "https://www.edinburghnews.scotsman.com/webimg/b25lY21zOmU3ZTkxYTZmLTUxNTQtNDAzYy1hYjQxLWEzZjY0YjZiZmM3ODo5NjIwNTY3Zi1jMmMxLTRlMmUtODYxZi1lNWJkYTg2NjBhM2E=.jpg?width=1200&enable=upscale",
-    "title": "Gordon Ramsay Bread Street Kitchen & Bar",
-    "description": "Bread Street Kitchen & Bar er nú í Edinborg. Vertu með í morgunmat, hádegismat, kvöldmat og kvölddrykki 7 daga vikunnar. Ekki missa af klassískum Gordon Ramsay réttum, allt frá Beef Wellington og hefðbundnum fiski og franskum, til sjaldgæfra steikur og dýrindis árstíðabundin salöt.",
-    "time": "2024-05-05T20:00:00",
-    "address": "4 St Andrew Square",
-    "location": "Edinburgh",
-    "openingHours": "11:30 - 22:00",
+    "imageUrl": "https://example.com/vinylbar.jpg",
+    "title": "Vinyl Bar",
+    "description": "Bar sem leikur tónlist eingöngu af vínylplötum, notaleg stemning og breitt drykkjarval.",
+    "time": "",
+    "address": "ul. Solec 18",
+    "location": "Warsaw",
+    "openingHours": "17:00 - 02:00",
     "coordinates": {
-      "lat": 55.953588,
-      "lng": -3.193114
+      "lat": 52.2273,
+      "lng": 21.0362
     }
   },
   {
     "id": 27,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsyhjwnG5ZUneZBdvnezpJttCNTJmTu0S45nELuJKXYA&s",
-    "title": "Edinburgh Castle",
-    "description": "Edinburgh Castle is a historic castle in Edinburgh, Scotland. It stands on Castle Rock, which has been occupied by humans since at least the Iron Age. There has been a royal castle on the rock since at least the reign of Malcolm III in the 11th century, and the castle continued to be a royal residence until 1633",
-    "time": "2024-05-05T12:00:00",
-    "address": "Castlehill, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "09:30 - 18:00",
+    "imageUrl": "https://example.com/barmleczny.jpg",
+    "title": "Bar Mleczny (Milk Bar)",
+    "description": "Ekki hefðbundinn bar í drykkjarlegum skilningi, en klassískur pólskur 'milk bar' með ódýrum mat og drykk.",
+    "time": "",
+    "address": "ul. Zlota 11",
+    "location": "Warsaw",
+    "openingHours": "08:00 - 20:00",
     "coordinates": {
-      "lat": 55.948841,
-      "lng": -3.196684
+      "lat": 52.2311,
+      "lng": 21.0055
     }
   },
   {
     "id": 28,
-    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ksOj5fUyGFQLt7F6UpmmkA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=352.39313&pitch=0&thumbfov=100",
-    "title": "AirBnb",
-    "description": "Garden level apartment with its own private entrance. Consists of 1 Quad bedroom with en-suite, 1 Triple bedroom with en-suite, 1 Double bedroom with main bathroom opposite and 2 single box rooms. Can sleep up to 11 people or 12 with a guest bed (£25 supplement applies. )",
-    "time": "2024-05-04T13:00:00",
-    "address": "16A York Pl, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "10:00 - 22:00",
+    "imageUrl": "https://example.com/blackpony.jpg",
+    "title": "Black Pony",
+    "description": "Nútímalegur bjór- og kokteilbar, iðulega spiluð DJ-tónlist um helgar.",
+    "time": "",
+    "address": "ul. Wilcza 46",
+    "location": "Warsaw",
+    "openingHours": "19:00 - 03:00",
     "coordinates": {
-      "lat": 55.956118,
-      "lng": -3.191673
+      "lat": 52.2231,
+      "lng": 21.0154
     }
   },
   {
     "id": 29,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipOkMrIBSsEA-X9Pufeps6Vm8YZouAZ5qg67noP-=w408-h306-k-no",
-    "title": "McDonald's",
-    "description": "Classic, long-running fast-food chain known for its burgers & fries.",
-    "time": "2024-05-04T13:30:00",
-    "address": "3, 9 St Andrew St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "05:00 - 03:00",
+    "imageUrl": "https://example.com/curtainclub.jpg",
+    "title": "The Curtain Club",
+    "description": "Næturklúbbarstemning með kokteilum, dansgólfi og lifandi skemmtun á kvöldin.",
+    "time": "",
+    "address": "ul. Mazowiecka 9",
+    "location": "Warsaw",
+    "openingHours": "20:00 - 05:00",
     "coordinates": {
-      "lat": 55.953295,
-      "lng": -3.191294
+      "lat": 52.2330,
+      "lng": 21.0118
     }
   },
   {
     "id": 30,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipPh1F2bCz894-m_eyPICfwfprZaxkBNjh3RDO1S=w408-h306-k-no",
-    "title": "Salt Horse Beer Shop, Bar & Burgers",
-    "description": "Quaint pub in stylish setting with a patio offering burgers, bar bites & a wide range of of beers.",
-    "time": "2024-05-04T14:30:00",
-    "address": "57-61 Blackfriars St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "12:00 - 00:00",
+    "imageUrl": "https://example.com/friendsbar.jpg",
+    "title": "Friends Bar",
+    "description": "Vingjarnlegur bar fyrir hópa, með borðspilum og plássi fyrir litla tónleika eða uppistand.",
+    "time": "",
+    "address": "ul. Hoża 25",
+    "location": "Warsaw",
+    "openingHours": "17:00 - 02:00",
     "coordinates": {
-      "lat": 55.949277,
-      "lng": -3.185690
+      "lat": 52.2278,
+      "lng": 21.0132
     }
   },
   {
     "id": 31,
-    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ksOj5fUyGFQLt7F6UpmmkA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=352.39313&pitch=0&thumbfov=100",
-    "title": "Arons og Ólafs special",
-    "description": "Kemur í ljós... bara eitthvað special.. Hérna er meiri texti til að þetta verði að tveimur línum. Hvað ætlum við að gera?",
-    "time": "2024-05-05T09:00:00",
-    "address": "16A York Pl, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "09:00 - 10:00",
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipNq3wsyYEhRiSXtisKD6U7lsksASwLmp-j2un5G=w408-h272-k-no",
+    "title": "Selavi",
+    "description": "Selavi - This is the life we want to show you - C'est la vie!",
+    "time": "2025-04-05T17:00:00",
+    "address": "Małachowski Square 2",
+    "location": "Warsaw",
+    "openingHours": "17:00 - 20:00",
     "coordinates": {
-      "lat": 55.956118,
-      "lng": -3.191673
+      "lat": 52.2278,
+      "lng": 21.0132
     }
   },
   {
     "id": 32,
-    "imageUrl": "https://www.mercattours.com/mediaLibrary/images/english/vaults-room-photo.jpeg",
-    "title": "The World Famous Underground Ghost Tour",
-    "description": "At street level, Edinburgh is a peaceful and pretty city—but the subterranean tunnels below tell an entirely different story. On this ghostly walking tour, explore historic sites including Greyfriars Kirkyard and St. Giles’ Cathedral with your enthusiastic guide, and hear chilling tales of murder and revenge. Delve down into underground caverns normally closed to the public, and learn of Edinburgh’s grim and gruesome past.",
-    "time": "2024-05-05T18:45:00",
-    "address": "124 High St, Edinburgh",
-    "location": "Edinburgh",
-    "openingHours": "18:45 - 20:00",
+    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipOzajy4S-CheG3am8BYn0p1S1kzCy4t8Iayo-6n=w408-h306-k-no",
+    "title": "Panorama Sky Bar",
+    "description": "Selavi - This is the life we want to show you - C'est la vie!",
+    "time": "2025-04-04T21:00",
+    "address": "Al. Jerozolimskie 65/79",
+    "location": "Warsaw",
+    "openingHours": "13:00 - 02:00",
     "coordinates": {
-      "lat": 55.94999808199867,
-      "lng": -3.188154702532069
+      "lat": 52.227935,
+      "lng": 21.005321
     }
   }
 ]
