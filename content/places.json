@@ -1,450 +1,101 @@
 [
   {
-    "id": 1,
-    "imageUrl": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1338869180665097220/original/b9a19a6c-29d6-48e1-819a-c2075bbf7d8c.jpeg?im_w=1440",
-    "title": "AirBnb",
-    "description": "This unique apartment of 69 m2 will comfortably accommodate 8 people. It is an excellent option for a family or a group of friends looking for a comfortable place to stay in Warsaw. The interiors are carefully decorated, functional and filled with natural light thanks to large windows. Appropriately selected additions create a homely and cosy atmosphere, while the light colour scheme gives the interior spaciousness and freshness, creating a space conducive to relaxation. The layout of the rooms includes a living room with kitchenette, two bedrooms, a balcony and a bathroom. The living area impresses with its comfort, where two, soft sofas with a sleeping function invite you to relax and unwind. The living room leads out onto a furnished balcony, where you can enjoy your morning coffee prepared in the available coffee machine. The kitchenette has been designed in a functional and elegant way, with modern appliances and furniture creating a harmonious whole with the rest of the flat. The master bedroom, with its double bed, is a cosy space that provides a peaceful night's sleep and recuperation after an eventful day. Between the living room and the bedroom with a bunk bed, there is an additional bedroom space with a double bed, which is separated from the rest of the apartment thanks to long curtains. The bathroom with shower has a hairdryer and a washing machine, which adds significantly to the comfort of the stay. Evening entertainment is provided by multimedia, such as a flat-screen Smart TV, a projector, as well as Wi-Fi access. For a good start, guests are provided with complimentary toiletries, towels and bed linen. In addition, it is possible to come to the apartment with your pet.",
-    "time": "2025-04-04T05:30:00",
-    "address": "Wspólna 65A",
-    "location": "Warsaw",
-    "openingHours": "24/7",
-    "coordinates": {
-      "lat": 52.226057,
-      "lng": 21.008378
-    }
+    "id": 33,
+    "imageUrl": "https://www.celeritas-sch.com/static/images/packages/16-s.jpg",
+    "title": "Celeritas Shooting Club",
+    "description": "Professional indoor shooting range in Budapest offering guided shooting experiences with various firearms under the supervision of certified instructors.",
+    "time": "2026-03-14T14:00:00",
+    "address": "1239 Budapest, Grassalkovich út 294",
+    "location": "Budapest",
+    "openingHours": "10:00 - 20:00",
+    "coordinates": { "lat": 47.3875, "lng": 19.0625 }
   },
   {
-    "id": 2,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMmWfFmeBzlUEmhnxGW7mMTag9QWwJsGgLfcg3x=w408-h243-k-no",
-    "title": "Starbucks",
-    "description": "Seattle-based coffeehouse chain known for its signature roasts, light bites and WiFi availability.",
+    "id": 34,
+    "imageUrl": "https://retekbisztro.hu/wp-content/uploads/2024/06/retek-bisztro-bg_copy.jpg",
+    "title": "Retek Bisztró",
+    "description": "A beloved neighbourhood bistro known for seasonal Hungarian cuisine and a welcoming atmosphere.",
+    "time": "2026-03-14T18:00:00",
+    "address": "Retek u. 3, 1024 Budapest",
+    "location": "Budapest",
+    "openingHours": "12:00 - 23:00",
+    "coordinates": { "lat": 47.5130, "lng": 19.0293 }
+  },
+  {
+    "id": 35,
+    "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/15/4c/55/00.jpg",
+    "title": "Budapest Pub Crawl",
+    "description": "Explore Budapest's famous ruin bars and nightlife scene on a guided pub crawl through the city's best spots.",
+    "time": "2026-03-14T21:00:00",
+    "address": "Kazinczy u. 14, 1075 Budapest",
+    "location": "Budapest",
+    "openingHours": "21:00 - 03:00",
+    "coordinates": { "lat": 47.4992, "lng": 19.066 }
+  },
+  {
+    "id": 36,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Budapest_Sz%C3%A9chenyi_Baths_R01.jpg/1280px-Budapest_Sz%C3%A9chenyi_Baths_R01.jpg",
+    "title": "Széchenyi Thermal Bath",
+    "description": "Iconic thermal bath complex with large outdoor pools and grand architecture in City Park (Városliget).",
     "time": "",
-    "address": "Warsaw Central",
-    "location": "Warsaw",
-    "openingHours": "04:45 - 23:00",
-    "coordinates": {
-      "lat": 52.228335,
-      "lng": 21.004067
-    }
+    "address": "Állatkerti krt. 11, 1146 Budapest",
+    "location": "Budapest",
+    "openingHours": "06:00 - 22:00",
+    "coordinates": { "lat": 47.519, "lng": 19.0816 }
   },
   {
-    "id": 3,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMPUYnV33b7P6fVhlIs6EqjvsqxHgbtTpLIXSWH=w408-h272-k-no",
-    "title": "McDonald's",
-    "description": "Classic, long-running fast-food chain known for its burgers & fries.",
-    "time": "2025-04-04T10:00:00",
-    "address": "Warsaw Central",
-    "location": "Warsaw",
-    "openingHours": "05:00 - 03:00",
-    "coordinates": {
-      "lat": 52.228335,
-      "lng": 21.004067
-    }
-  },
-  {
-    "id": 4,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6d/86/bf/photo0jpg.jpg?w=1000&h=-1&s=1",
-    "title": "Pub Crawl",
-    "description": "Whether you’re looking to meet new people or would just like to know where to go for drink, spice up your night—and your life—on a fun-packed tour of Warsaw’s best bars and clubs. Visit various venues for a free drink and excellent discounts before ending the night with skip-the-line entry to a popular nightclub.",
-    "time": "2025-04-05T20:00:00",
-    "address": "Klub Makulatura",
-    "location": "Warsaw",
-    "openingHours": "20:00 - 00:00",
-    "coordinates": {
-      "lat": 52.233063,
-      "lng": 21.018307
-    }
-  },
-  {
-    "id": 5,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/99/c4/e5.jpg",
-    "title": "Indoor Shooting Range",
-    "description": "Visit Warszawa Shooting Range in Warsaw and learn to shoot a range of firearms under the guidance of a professional instructor. With this 45-minute shooting package, fire six different guns from distances of 5, 10, 15, and 20 meters, including an AK 47, a CZ 75 Kadet pistol, a Glock 17, a Colt 1911, and a shotgun.",
-    "time": "2025-04-04T12:00:00",
-    "address": "Krakowiaków 80A",
-    "location": "Warsaw",
-    "openingHours": "11:00 - 21:00",
-    "coordinates": {
-      "lat": 52.191348,
-      "lng": 20.935778
-    }
-  },
-  {
-    "id": 6,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/db/cb/54/a1karting-gokart-track.jpg?w=900&h=500&s=1",
-    "title": "Go Karting",
-    "description": "Fast go-kart racetrack with training, plus conference & meeting spaces for team-building sessions.",
-    "time": "2025-04-04T14:00:00",
-    "address": "Annopol 24B",
-    "location": "Warsaw",
-    "openingHours": "10:00 - 22:00",
-    "coordinates": {
-      "lat": 52.315548,
-      "lng": 21.014995
-    }
-  },
-  {
-    "id": 7,
-    "imageUrl": "https://scitynightclub.pl/Color%20logo%20-%20no%20background.png",
-    "title": "SCity Club",
-    "description": "Special place",
+    "id": 37,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg/1280px-Interior_of_New_York_Palace%2C_Cafe_Budapest_%288344808702%29.jpg",
+    "title": "New York Café",
+    "description": "Famous historic café with lavish interiors—great for coffee, desserts, and a classic Budapest atmosphere.",
     "time": "",
-    "address": "Nowogrodzka 31",
-    "location": "Warsaw",
-    "openingHours": "24/7",
-    "coordinates": {
-      "lat": 52.229110,
-      "lng": 21.013789
-    }
+    "address": "Erzsébet krt. 9-11, 1073 Budapest",
+    "location": "Budapest",
+    "openingHours": "08:00 - 24:00",
+    "coordinates": { "lat": 47.4967, "lng": 19.0662 }
   },
   {
-    "id": 8,
-    "imageUrl": "https://images.myguide-cdn.com/warsaw/companies/w-oparach-absurdu/large/w-oparach-absurdu-130953.jpg",
-    "title": "W Oparach Absurdu",
-    "description": "Bohemískur bar með listrænu andrúmslofti, litrík hönnun og lifandi tónlist.",
+    "id": 38,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Szimpla_Kert_Budapest_1.jpg/1280px-Szimpla_Kert_Budapest_1.jpg",
+    "title": "Szimpla Kert",
+    "description": "Budapest's best-known ruin bar—quirky décor, multiple rooms, lively nights (and often a Sunday market).",
     "time": "",
-    "address": "ul. Ząbkowska 6",
-    "location": "Warsaw",
-    "openingHours": "18:00 - 03:00",
-    "coordinates": {
-      "lat": 52.2524,
-      "lng": 21.0376
-    }
+    "address": "Kazinczy u. 14, 1075 Budapest",
+    "location": "Budapest",
+    "openingHours": "12:00 - 04:00",
+    "coordinates": { "lat": 47.4992, "lng": 19.066 }
   },
   {
-    "id": 9,
-    "imageUrl": "https://go.wroclaw.pl/api/download/img-d23076242df7bd083d177391d01316a1/cuda1-panorama-jpg.jpg",
-    "title": "Cuda na Kiju",
-    "description": "Staður sem býður upp á fjölbreytta bjóra á krana, pizzu og gott útsýni yfir borgina.",
+    "id": 45,
+    "imageUrl": "https://www.bigbustours.com/media/magefan_blog/p/a/parliament-budapest-big-bus-tours-01.17.jpg",
+    "title": "Hungarian Parliament",
+    "description": "The iconic Neo-Gothic Parliament building on the banks of the Danube is one of Europe's oldest legislative buildings and Budapest's most photographed landmark. Guided tours available inside.",
     "time": "",
-    "address": "ul. Nowy Świat 6/12",
-    "location": "Warsaw",
-    "openingHours": "12:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2329,
-      "lng": 21.0172
-    }
+    "address": "Kossuth Lajos tér 1-3, 1055 Budapest",
+    "location": "Budapest",
+    "openingHours": "08:00 - 18:00",
+    "coordinates": { "lat": 47.5071, "lng": 19.0475 }
   },
   {
-    "id": 10,
-    "imageUrl": "https://warsawinsider.pl/wp-content/uploads/2023/11/WI_275_Pardon_To_Tu-1.jpg",
-    "title": "Pardon, To Tu",
-    "description": "Smár en hlýlegur bar sem býður upp á lifandi tónlistarkvöld og fjölda bjóra.",
+    "id": 43,
+    "imageUrl": "https://www.bigbustours.com/media/magefan_blog/f/i/fishermans-bastion-budapest-big-bus-tours-01.17.jpg",
+    "title": "Fisherman's Bastion",
+    "description": "A fairytale-like terrace on Buda Castle Hill offering one of the most stunning panoramic views of the Danube and Pest. Named after the fishermen who defended this stretch of the city wall.",
     "time": "",
-    "address": "Pl. Grzybowski 12/16",
-    "location": "Warsaw",
-    "openingHours": "17:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2345,
-      "lng": 21.0037
-    }
+    "address": "Szentháromság tér 5, 1014 Budapest",
+    "location": "Budapest",
+    "openingHours": "09:00 - 23:00",
+    "coordinates": { "lat": 47.5019, "lng": 19.0343 }
   },
   {
-    "id": 11,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/2b/f0/62/f6/beer-bar.jpg",
-    "title": "PiwPaw Beer Heaven",
-    "description": "Mjög umfangsmikill handverksbjórbar með hundruðum bjóra til að prófa.",
+    "id": 44,
+    "imageUrl": "https://www.bigbustours.com/media/magefan_blog/h/e/heroes-square-budapest-big-bus-tours-01.17.jpg",
+    "title": "Heroes' Square",
+    "description": "One of Budapest's most iconic landmarks featuring the Millennium Monument with statues of the seven chieftains of the Magyars and other important national leaders.",
     "time": "",
-    "address": "ul. Parkingowa 5",
-    "location": "Warsaw",
-    "openingHours": "16:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2292,
-      "lng": 21.0185
-    }
-  },
-  {
-    "id": 12,
-    "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/0b/55/d2/2f/front-room.jpg",
-    "title": "Same Krafty",
-    "description": "Handverksbjórbar í gamla bænum, útiservering á sumrin og pizzur í boði.",
-    "time": "",
-    "address": "ul. Nowomiejska 10",
-    "location": "Warsaw",
-    "openingHours": "14:00 - 00:00",
-    "coordinates": {
-      "lat": 52.2490,
-      "lng": 21.0120
-    }
-  },
-  {
-    "id": 13,
-    "imageUrl": "https://lh4.googleusercontent.com/proxy/0qOarkYoHhSJ566_GOEL0e_q4DvTCTx1PApGvpAIJBywIYwEsFCou44eGlSb3beboshamf7Nc4XnNc6vM2w1jb3bNSGP08U",
-    "title": "Beerokracja",
-    "description": "Sérhæfir sig í pólskum og alþjóðlegum handverksbjór, afslappað andrúmsloft.",
-    "time": "",
-    "address": "ul. Marszałkowska 99/101",
-    "location": "Warsaw",
-    "openingHours": "16:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2275,
-      "lng": 21.0128
-    }
-  },
-  {
-    "id": 14,
-    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1f/10/13/great-craft-beer-bar.jpg?w=900&h=500&s=1",
-    "title": "Chmielarnia",
-    "description": "Bjórbar og veitingastaður með fjölbreytt úrval af handverksbjór og asískum mat.",
-    "time": "",
-    "address": "ul. Twarda 42",
-    "location": "Warsaw",
-    "openingHours": "12:00 - 01:00",
-    "coordinates": {
-      "lat": 52.2322,
-      "lng": 21.0014
-    }
-  },
-  {
-    "id": 15,
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtsYEf0770-mzlqb8-yeINEAa8Pln8BxUqsg&s",
-    "title": "Pinta Wawa",
-    "description": "Vinsæll handverksbjórbar sem býður upp á vörur frá Pinta brugghúsinu ásamt öðrum tegundum.",
-    "time": "",
-    "address": "ul. Smolna 32",
-    "location": "Warsaw",
-    "openingHours": "16:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2313,
-      "lng": 21.0249
-    }
-  },
-  {
-    "id": 16,
-    "imageUrl": "https://example.com/craftbeermuranow.jpg",
-    "title": "Craft Beer Muranów",
-    "description": "Notalegur bar í Muranów-hverfinu, með úrvali af pólskum og evrópskum handverksbjór.",
-    "time": "",
-    "address": "ul. Andersa 23",
-    "location": "Warsaw",
-    "openingHours": "15:00 - 01:00",
-    "coordinates": {
-      "lat": 52.2462,
-      "lng": 20.9951
-    }
-  },
-  {
-    "id": 17,
-    "imageUrl": "https://example.com/hoppiness.jpg",
-    "title": "Hoppiness",
-    "description": "Nútímalegur bjórbar með fjölbreytta krana, sérstök kokteiltilboð og street food-rétti.",
-    "time": "",
-    "address": "ul. Chmielna 27",
-    "location": "Warsaw",
-    "openingHours": "17:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2310,
-      "lng": 21.0156
-    }
-  },
-  {
-    "id": 18,
-    "imageUrl": "https://example.com/shelter.jpg",
-    "title": "Shelter",
-    "description": "Myrkur og stemmningsríkur staður með rokktónlist og fjölbreyttum drykkjum.",
-    "time": "",
-    "address": "ul. Jasna 1",
-    "location": "Warsaw",
-    "openingHours": "20:00 - 04:00",
-    "coordinates": {
-      "lat": 52.2328,
-      "lng": 21.0074
-    }
-  },
-  {
-    "id": 19,
-    "imageUrl": "https://example.com/podwalebarandbooks.jpg",
-    "title": "Podwale Bar and Books",
-    "description": "Fíngerður bar sem býður upp á kokteila, viskí og sigara í klassísku umhverfi.",
-    "time": "",
-    "address": "ul. Wąski Dunaj 20",
-    "location": "Warsaw",
-    "openingHours": "18:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2496,
-      "lng": 21.0112
-    }
-  },
-  {
-    "id": 20,
-    "imageUrl": "https://example.com/coctailbarmax.jpg",
-    "title": "Coctail Bar Max & Dom Whisky",
-    "description": "Kokteilbar með miklu úrvali af viskí, klassískum og nýstárlegum kokteilum.",
-    "time": "",
-    "address": "ul. Krucza 16/22",
-    "location": "Warsaw",
-    "openingHours": "18:00 - 03:00",
-    "coordinates": {
-      "lat": 52.2290,
-      "lng": 21.0122
-    }
-  },
-  {
-    "id": 21,
-    "imageUrl": "https://example.com/backroom.jpg",
-    "title": "BackRoom",
-    "description": "Felubar (speakeasy) sem er staðsettur bakvið leynihurð, nýstárlegir kokteilar.",
-    "time": "",
-    "address": "ul. Nowogrodzka 22",
-    "location": "Warsaw",
-    "openingHours": "19:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2307,
-      "lng": 21.0079
-    }
-  },
-  {
-    "id": 22,
-    "imageUrl": "https://example.com/syrenispiew.jpg",
-    "title": "Syreni Śpiew",
-    "description": "Stór og glæsilegur bar með lifandi tónlist, úrval kokteila og bjóra.",
-    "time": "",
-    "address": "ul. Szara 10A",
-    "location": "Warsaw",
-    "openingHours": "20:00 - 03:00",
-    "coordinates": {
-      "lat": 52.2181,
-      "lng": 21.0393
-    }
-  },
-  {
-    "id": 23,
-    "imageUrl": "https://example.com/zamieszanie.jpg",
-    "title": "Zamieszanie",
-    "description": "Kokteilbar sem sameinar norrænan minimalisma og pólsk áhrif í frumlegum drykkjum.",
-    "time": "",
-    "address": "ul. Nowy Świat 22/28",
-    "location": "Warsaw",
-    "openingHours": "18:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2320,
-      "lng": 21.0191
-    }
-  },
-  {
-    "id": 24,
-    "imageUrl": "https://example.com/karmnik.jpg",
-    "title": "Karmnik",
-    "description": "Notalegur bar í gamla bænum, bjóðandi umhverfi og ljúffengir smáréttir.",
-    "time": "",
-    "address": "ul. Piwna 4A",
-    "location": "Warsaw",
-    "openingHours": "12:00 - 01:00",
-    "coordinates": {
-      "lat": 52.2495,
-      "lng": 21.0125
-    }
-  },
-  {
-    "id": 25,
-    "imageUrl": "https://example.com/resort.jpg",
-    "title": "Resort",
-    "description": "Töff bar með einstöku innanhússlúkki, lifandi tónlistarviðburðir og listrænir gjörningar.",
-    "time": "",
-    "address": "ul. Bielańska 1",
-    "location": "Warsaw",
-    "openingHours": "18:00 - 03:00",
-    "coordinates": {
-      "lat": 52.2443,
-      "lng": 21.0089
-    }
-  },
-  {
-    "id": 26,
-    "imageUrl": "https://example.com/vinylbar.jpg",
-    "title": "Vinyl Bar",
-    "description": "Bar sem leikur tónlist eingöngu af vínylplötum, notaleg stemning og breitt drykkjarval.",
-    "time": "",
-    "address": "ul. Solec 18",
-    "location": "Warsaw",
-    "openingHours": "17:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2273,
-      "lng": 21.0362
-    }
-  },
-  {
-    "id": 27,
-    "imageUrl": "https://example.com/barmleczny.jpg",
-    "title": "Bar Mleczny (Milk Bar)",
-    "description": "Ekki hefðbundinn bar í drykkjarlegum skilningi, en klassískur pólskur 'milk bar' með ódýrum mat og drykk.",
-    "time": "",
-    "address": "ul. Zlota 11",
-    "location": "Warsaw",
-    "openingHours": "08:00 - 20:00",
-    "coordinates": {
-      "lat": 52.2311,
-      "lng": 21.0055
-    }
-  },
-  {
-    "id": 28,
-    "imageUrl": "https://example.com/blackpony.jpg",
-    "title": "Black Pony",
-    "description": "Nútímalegur bjór- og kokteilbar, iðulega spiluð DJ-tónlist um helgar.",
-    "time": "",
-    "address": "ul. Wilcza 46",
-    "location": "Warsaw",
-    "openingHours": "19:00 - 03:00",
-    "coordinates": {
-      "lat": 52.2231,
-      "lng": 21.0154
-    }
-  },
-  {
-    "id": 29,
-    "imageUrl": "https://example.com/curtainclub.jpg",
-    "title": "The Curtain Club",
-    "description": "Næturklúbbarstemning með kokteilum, dansgólfi og lifandi skemmtun á kvöldin.",
-    "time": "",
-    "address": "ul. Mazowiecka 9",
-    "location": "Warsaw",
-    "openingHours": "20:00 - 05:00",
-    "coordinates": {
-      "lat": 52.2330,
-      "lng": 21.0118
-    }
-  },
-  {
-    "id": 30,
-    "imageUrl": "https://example.com/friendsbar.jpg",
-    "title": "Friends Bar",
-    "description": "Vingjarnlegur bar fyrir hópa, með borðspilum og plássi fyrir litla tónleika eða uppistand.",
-    "time": "",
-    "address": "ul. Hoża 25",
-    "location": "Warsaw",
-    "openingHours": "17:00 - 02:00",
-    "coordinates": {
-      "lat": 52.2278,
-      "lng": 21.0132
-    }
-  },
-  {
-    "id": 31,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipNq3wsyYEhRiSXtisKD6U7lsksASwLmp-j2un5G=w408-h272-k-no",
-    "title": "Selavi",
-    "description": "Selavi - This is the life we want to show you - C'est la vie!",
-    "time": "2025-04-05T17:00:00",
-    "address": "Małachowski Square 2",
-    "location": "Warsaw",
-    "openingHours": "17:00 - 20:00",
-    "coordinates": {
-      "lat": 52.2278,
-      "lng": 21.0132
-    }
-  },
-  {
-    "id": 32,
-    "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipOzajy4S-CheG3am8BYn0p1S1kzCy4t8Iayo-6n=w408-h306-k-no",
-    "title": "Panorama Sky Bar",
-    "description": "Selavi - This is the life we want to show you - C'est la vie!",
-    "time": "2025-04-04T21:00",
-    "address": "Al. Jerozolimskie 65/79",
-    "location": "Warsaw",
-    "openingHours": "13:00 - 02:00",
-    "coordinates": {
-      "lat": 52.227935,
-      "lng": 21.005321
-    }
+    "address": "Hősök tere, 1146 Budapest",
+    "location": "Budapest",
+    "openingHours": "Open 24/7",
+    "coordinates": { "lat": 47.5145, "lng": 19.0793 }
   }
 ]

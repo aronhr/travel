@@ -31,7 +31,7 @@ const x = setInterval(() => {
     <div class="h-full flex flex-col justify-start text-white">
       <h1 class="text-6xl font-bold w-32 p-8">
         <span v-if="now < edinburghArrival"><p class="text-2xl text-nowrap"><span>Góða ferð til</span></p> Warsaw</span>
-        <span v-else-if="now > edinburghDeparture"><p class="text-2xl text-nowrap"><span>Ekkert spennandi á döfinni</span></p></span>
+        <span v-else-if="now > edinburghDeparture"><p class="text-2xl text-nowrap"><span>Helgarævintýri í Búdapest</span></p></span>
         <span v-else><p class="text-2xl text-nowrap"><span>Velkominn til</span></p> Warsaw</span>
       </h1>
       <h1 v-if="timeToEvent !== 'EXPIRED'" class="text-6xl font-bold w-32 px-8 pb-8">
@@ -39,12 +39,7 @@ const x = setInterval(() => {
       </h1>
       <div class="flex flex-col justify-center items-start p-8 h-2/3">
         <h3 class="text-xl font-semibold w-6/7 text-start">
-          Stígum saman inn í ævintýrið sem bíður okkar í hjarta
-          Skotlands, þar sem sögur og saga lifna við í hinni göfugu
-          Edinborg. Í þessari helgarferð munum við kafa djúpt í
-          ríkulega menningu og dularfulla sögu þessarar fornu
-          borgar, og upplifa allt það besta sem hún hefur upp á að
-          bjóða
+          Stígum saman inn í ævintýrið sem bíður okkar í hjarta Ungverjalands, þar sem saga, menning og lífleg stemning mætast í fallegu borginni Búdapest. Í þessari helgarferð munum við rölta meðfram Dóná, njóta stórbrotins útsýnis frá hæðum borgarinnar og slaka á í frægum heitum böðum. Við munum líka kanna líflegt næturlíf borgarinnar, smakka dýrindis ungverskan mat og upplifa allt það besta sem Búdapest hefur upp á að bjóða.
         </h3>
       </div>
       <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105" />
