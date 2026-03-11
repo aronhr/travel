@@ -3,6 +3,7 @@ import path from "path";
 
 export default defineNuxtConfig({
   runtimeConfig: {
+    openaiApiKey: process.env.OPENAI_API_KEY,
     public: {
       mb_key: process.env.MB_KEY
     }
