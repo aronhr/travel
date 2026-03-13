@@ -8,7 +8,7 @@ export default function usePlaces() {
     const getAllPlaces = (search) => {
         // get all favorite places from localstorage and sort by them
         const favoritePlaces = JSON.parse(localStorage.getItem('favorites')) || [];
-        const allPlaces = places.map((place) => {
+        const allPlaces = places.filter(place => !place.hidden).map((place) => {
             return {
                 ...place,
                 isFavorite: favoritePlaces.includes(place.id),

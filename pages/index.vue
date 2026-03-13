@@ -2,6 +2,10 @@
 useHead({
   title: 'Squaretable'
 })
+
+const { getPlaceById } = usePlaces();
+const airbnb = getPlaceById(1);
+
 // Create a countdown to the flight to edinburgh
 const countDownDate = new Date("April 3, 2025 20:30:00").getTime();
 const timeToEvent = ref("");
@@ -41,6 +45,10 @@ const x = setInterval(() => {
         <h3 class="text-xl font-semibold w-6/7 text-start">
           Stígum saman inn í ævintýrið sem bíður okkar í hjarta Ungverjalands, þar sem saga, menning og lífleg stemning mætast í fallegu borginni Búdapest. Í þessari helgarferð munum við rölta meðfram Dóná, njóta stórbrotins útsýnis frá hæðum borgarinnar og slaka á í frægum heitum böðum. Við munum líka kanna líflegt næturlíf borgarinnar, smakka dýrindis ungverskan mat og upplifa allt það besta sem Búdapest hefur upp á að bjóða.
         </h3>
+      </div>
+      <div v-if="airbnb" class="px-8 pb-8">
+        <p class="text-sm font-semibold uppercase tracking-widest mb-3 opacity-70">Where we're staying</p>
+        <Card :place="airbnb" />
       </div>
       <img src="../public/landing-page-comp.webp" class="-z-10 fixed w-screen object-bottom blur-sm brightness-50 scale-105" />
     </div>
