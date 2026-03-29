@@ -7,7 +7,7 @@ const { getPlaceById } = usePlaces();
 const airbnb = getPlaceById(1);
 
 // Create a countdown to the flight to edinburgh
-const countDownDate = new Date("April 3, 2025 20:30:00").getTime();
+const countDownDate = new Date("2026-03-13T19:40:00Z").getTime();
 const timeToEvent = ref("");
 
 const now = new Date().getTime();
