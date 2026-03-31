@@ -23,6 +23,9 @@ const computeLinkClass = (targetRoute) => {
                     <router-link to="/place" class=" group w-1/3 border-l-2 border-white" :class="computeLinkClass('place')">
                         <i class="pi pi-compass group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
                     </router-link>
+                    <router-link to="/coffee" class=" group w-1/3 border-l-2 border-white" :class="computeLinkClass('coffee')">
+                      <i class="pi pi-coffee group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
+                    </router-link>
                   <router-link to="/games" class=" group w-1/3 border-l-2 border-white" :class="computeLinkClass('games')">
                     <i class="pi pi-ticket group-hover:scale-105 group-hover:text-white transition duration-75" style="font-size: 1.5rem" />
                   </router-link>
